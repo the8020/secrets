@@ -1,0 +1,8 @@
+version = 1
+program = "get"
+summary = "Get a secret"
+usage = "<name>"
+mutates_state = false
+restart_behavior = "none"
+[[examples]]
+command = "secrets.get github"

@@ -1,0 +1,14 @@
+version = 1
+program = "set"
+summary = "Set a secret"
+usage = "<name>"
+mutates_state = true
+restart_behavior = "none"
+[[secrets]]
+name = "value"
+required = true
+prompt = "Secret value: "
+confirmation_prompt = "Confirm secret value: "
+stdin_option = "value-stdin"
+[[examples]]
+command = "secrets.set github"
