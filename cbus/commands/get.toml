@@ -1,4 +1,5 @@
 version = 1
+command = "secrets.get"
 program = "get"
 summary = "Get a secret"
 usage = "<name>"
