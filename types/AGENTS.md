@@ -1,0 +1,30 @@
+Parent DOX: [secrets DOX](../AGENTS.md).
+
+# Purpose
+
+- Share named credential references across tables and administration screens.
+
+# Ownership
+
+- Own `secretName`; the table owns stored data and admin-core owns the edit UI.
+
+# Local Contracts
+
+- Use an ordinary Zod string with a label, description, lazy paged name lookup,
+  and lazy open callback. Never query, return, or display stored secret values.
+- SQL lookup is case-insensitive, ordered by name, and limited before returning
+  choices. Importing the field performs no database or UUI work.
+- Open calls the owning Secrets program with the selected name; that screen
+  starts with an empty replacement value.
+
+# Work Guidance
+
+# Verification
+
+- `deno task check` and `deno task test` cover schema stability and the
+  name-only lookup. UUI's Programs browser flow opens a secret from package
+  field help.
+
+# Child DOX Index
+
+No child DOX documents. This document owns the entire local scope.

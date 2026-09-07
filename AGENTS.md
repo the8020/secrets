@@ -114,6 +114,8 @@ below.
 - [programs/AGENTS.md](programs/AGENTS.md): Expose explicit named-secret list,
   get, and set commands.
 - [tables/AGENTS.md](tables/AGENTS.md): Describe the shared named-secret table.
+- [types/AGENTS.md](types/AGENTS.md): Share the secret-name field, bounded name
+  lookup, and its administration link without reading secret values.
 
 # Purpose
 
@@ -131,11 +133,26 @@ below.
 
 - Secret values are available only to trusted kernel operations and explicit
   authenticated reads. Lists and writes never echo values.
+- `types/secret.ts` defines the reusable secret-name schema. Its lazy value help
+  selects names only, searches case-insensitively in SQL, and fetches at most
+  the requested page plus one look-ahead row. Its open callback calls the
+  ordinary admin-core Secrets screen; importing a field performs no runtime
+  work.
 - Do not add reversible encryption without a separately managed root key.
 - Flat `cbus/commands/*.toml` declarations use a required `command` field for
   the complete public name; filenames are arbitrary. They map visible
   `secrets.*` commands to non-discoverable ordinary programs. `secrets.set`
   receives its value only as execution-scoped secure input.
+
+# Work Guidance
+
+- Keep this package focused on named-secret schemas and explicit
+  administration. Consumers own their workflows; reuse the semantic
+  secret-name field and typed access contract without moving consumer policy
+  into the kernel or secret store.
+- Keep values at their authoritative owner and out of lists, diagnostics, and
+  derived state. Repair access-contract defects once at that owner and verify
+  the affected consumer without exposing credentials.
 
 # Verification
 
