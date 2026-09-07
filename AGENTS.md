@@ -146,10 +146,10 @@ below.
 
 # Work Guidance
 
-- Keep this package focused on named-secret schemas and explicit
-  administration. Consumers own their workflows; reuse the semantic
-  secret-name field and typed access contract without moving consumer policy
-  into the kernel or secret store.
+- Keep this package focused on named-secret schemas and explicit administration.
+  Consumers own their workflows; reuse the semantic secret-name field and typed
+  access contract without moving consumer policy into the kernel or secret
+  store.
 - Keep values at their authoritative owner and out of lists, diagnostics, and
   derived state. Repair access-contract defects once at that owner and verify
   the affected consumer without exposing credentials.
