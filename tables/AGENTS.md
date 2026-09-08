@@ -15,8 +15,8 @@ Parent DOX: [secrets DOX](../AGENTS.md).
   table identity follows the package and file path.
 - Keep values confined to trusted kernel operations and explicit authenticated
   reads.
-- The name column reuses `../types/secret.ts` through `t.from`, retaining its
-  table-local primary key.
+- Name and value columns reuse `../types/secret.ts` through `t.from`, retaining
+  the table-local primary key and unchanged text representation.
 - Do not introduce reversible encryption without a separately managed root key.
 
 # Work Guidance

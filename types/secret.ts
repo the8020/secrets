@@ -28,3 +28,15 @@ export const secretName: z.ZodString = field(z.string(), {
     await secrets(name);
   },
 });
+
+export const secretInfo = z.object({
+  value: field(z.string(), {
+    label: "Value",
+    description:
+      "Paste the credential to save. Saving an existing secret **replaces** its current value.",
+  }),
+  updatedAt: field(z.string(), {
+    label: "Last changed",
+    description: "When this credential was most recently replaced.",
+  }),
+});

@@ -1,9 +1,9 @@
 import { type Row, t, table, type TableDatabase } from "/p/the8020/db/mod.ts";
-import { secretName } from "../types/secret.ts";
+import { secretInfo, secretName } from "../types/secret.ts";
 
 const Secrets = table("the8020__secrets__secrets", {
   name: t.from(secretName).primaryKey(),
-  value: t.text(),
+  value: t.from(secretInfo.shape.value),
   updatedAt: t.datetime().defaultNow(),
 });
 

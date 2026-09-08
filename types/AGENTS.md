@@ -6,7 +6,8 @@ Parent DOX: [secrets DOX](../AGENTS.md).
 
 # Ownership
 
-- Own `secretName`; the table owns stored data and admin-core owns the edit UI.
+- Own `secretName` and `secretInfo` value/update metadata; the table owns stored
+  data and admin-core owns the edit UI.
 
 # Local Contracts
 
@@ -14,6 +15,9 @@ Parent DOX: [secrets DOX](../AGENTS.md).
   and lazy open callback. Never query, return, or display stored secret values.
 - SQL lookup is case-insensitive, ordered by name, and limited before returning
   choices. Importing the field performs no database or UUI work.
+- The value field describes replacement input only and has no lookup or open
+  callback. Screens keep it masked and initially empty; table reuse does not
+  authorize reading or displaying stored values.
 - Open calls the owning Secrets program with the selected name; that screen
   starts with an empty replacement value.
 
