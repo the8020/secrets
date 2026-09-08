@@ -34,25 +34,24 @@ Deno.test("secret value help reads only names and applies database paging", asyn
     assertEquals(statement.includes("lower("), true);
     const parameters = input.parameters as unknown[];
     assertEquals(parameters.includes("%git%"), true);
-    assertEquals(parameters.includes(2), true);
+    if (statement.includes("count(*)")) {
+      return Promise.resolve({ columns: ["total"], rows: [[5]] });
+    }
+    assertEquals(parameters.includes(1), true);
     assertEquals(parameters.includes(3), true);
     return Promise.resolve({
       columns: ["name"],
-      rows: [["GitHub"], ["GitLab"]],
+      rows: [["GitHub"]],
     });
   };
   try {
-    assertEquals(
-      await fieldMetadata(secretName)?.valueHelp?.({
-        query: " GIT ",
-        offset: 3,
-        limit: 1,
-      }),
-      {
-        items: [{ value: "GitHub", label: "GitHub" }],
-        more: true,
-      },
-    );
+    const page = await fieldMetadata(secretName)?.valueHelp?.({
+      query: { search: " GIT ", filters: {}, sort: null },
+      offset: 3,
+      limit: 1,
+    });
+    assertEquals(page?.rows, [{ name: "GitHub" }]);
+    assertEquals([page?.more, page?.totalItems], [true, 5]);
   } finally {
     globals[kernelInvokeSymbol] = previous;
   }

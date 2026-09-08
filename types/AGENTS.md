@@ -13,8 +13,9 @@ Parent DOX: [secrets DOX](../AGENTS.md).
 
 - Use an ordinary Zod string with a label, description, lazy paged name lookup,
   and lazy open callback. Never query, return, or display stored secret values.
-- SQL lookup is case-insensitive, ordered by name, and limited before returning
-  choices. Importing the field performs no database or UUI work.
+- Lookup returns a one-column schema with name as the selection key. Shared SQL
+  lookup applies ordinary text filters, search, and sorting before paging and
+  returns matching counts. Importing the field performs no database or UUI work.
 - The value field describes replacement input only and has no lookup or open
   callback. Screens keep it masked and initially empty; table reuse does not
   authorize reading or displaying stored values.

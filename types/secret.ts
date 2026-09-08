@@ -3,23 +3,14 @@ import { field, z } from "/p/the8020/db/fields.ts";
 export const secretName: z.ZodString = field(z.string(), {
   label: "Secret",
   description: "A saved credential, such as a repository access token.",
-  valueHelp: async ({ query, offset, limit }) => {
+  valueHelp: async (request) => {
     const { default: Secrets } = await import("../tables/secrets.ts");
-    const { sql } = await import("/p/the8020/db/mod.ts");
-    const rows = await Secrets.select([Secrets.name])
-      .where(
-        sql<string>`lower(${sql.ref(Secrets.name)})`,
-        "like",
-        `%${query.trim().toLowerCase()}%`,
-      ).orderBy(Secrets.name)
-      .offset(offset).limit(limit + 1).execute();
-    return {
-      items: rows.slice(0, limit).map((row) => ({
-        value: row.name,
-        label: row.name,
-      })),
-      more: rows.length > limit,
-    };
+    const { lookupPage } = await import("/p/the8020/db/lookup.ts");
+    return lookupPage(
+      z.object({ name: secretName }),
+      Secrets.select([Secrets.name]),
+      request,
+    );
   },
   open: async (name) => {
     const { default: secrets } = await import(
