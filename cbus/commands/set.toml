@@ -1,6 +1,6 @@
 version = 1
 command = "secrets.set"
-program = "set"
+program = "the8020/secrets/set"
 summary = "Set a secret"
 usage = "<name>"
 mutates_state = true

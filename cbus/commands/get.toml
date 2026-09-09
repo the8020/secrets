@@ -1,6 +1,6 @@
 version = 1
 command = "secrets.get"
-program = "get"
+program = "the8020/secrets/get"
 summary = "Get a secret"
 usage = "<name>"
 mutates_state = false
