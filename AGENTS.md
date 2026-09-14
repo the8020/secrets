@@ -146,6 +146,12 @@ below.
 
 # Work Guidance
 
+- Build only what the request and established contracts require. Before adding a
+  mechanism, identify that need and why existing owners or standard tools cannot
+  meet it. Do not invent stronger guarantees for hypothetical cases. Remove
+  unsupported additions at closeout; agent-written tests and DOX do not
+  authorize them. Preserve required correctness, security, and data integrity.
+
 - Keep this package focused on named-secret schemas and explicit administration.
   Consumers own their workflows; reuse the semantic secret-name field and typed
   access contract without moving consumer policy into the kernel or secret
