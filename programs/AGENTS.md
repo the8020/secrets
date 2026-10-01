@@ -6,7 +6,7 @@ Parent DOX: [secrets DOX](../AGENTS.md).
 
 # Ownership
 
-- Own hidden program manifests and typed kernel secret entrypoints.
+- Own hidden program manifests and calls to the package's `../mod.ts` API.
 
 # Local Contracts
 

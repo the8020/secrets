@@ -13,11 +13,10 @@ Parent DOX: [secrets DOX](../AGENTS.md).
 
 - Default-export authored table descriptors through `/p/the8020/db/mod.ts`;
   table identity follows the package and file path.
-- Keep values confined to trusted kernel operations and explicit authenticated
-  reads.
+- The value column contains authenticated ciphertext from the package API.
+  Consumers never read this column directly; explicit get decrypts it.
 - Name and value columns reuse `../types/secret.ts` through `t.from`, retaining
   the table-local primary key and unchanged text representation.
-- Do not introduce reversible encryption without a separately managed root key.
 
 # Work Guidance
 

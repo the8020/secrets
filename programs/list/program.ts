@@ -1,2 +1,2 @@
-import { kernel } from "@the8020/kernel";
-export default () => kernel.secrets.list().then((secrets) => ({ secrets }));
+import { listSecrets } from "../../mod.ts";
+export default () => listSecrets().then((secrets) => ({ secrets }));

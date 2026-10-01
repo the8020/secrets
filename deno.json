@@ -18,7 +18,7 @@
     "@the8020/context": "file:///opt/runtime/context/mod.ts"
   },
   "tasks": {
-    "check": "deno fmt --check . && deno lint . && deno check --import-map=deno.local.json tables/*.ts programs/*/*.ts",
+    "check": "deno fmt --check . && deno lint . && deno check --import-map=deno.local.json mod.ts tables/*.ts programs/*/*.ts",
     "test": "deno test --import-map=deno.local.json ."
   }
 }

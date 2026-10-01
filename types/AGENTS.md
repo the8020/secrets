@@ -13,6 +13,8 @@ Parent DOX: [secrets DOX](../AGENTS.md).
 
 - Use an ordinary Zod string with a label, description, lazy paged name lookup,
   and lazy open callback. Never query, return, or display stored secret values.
+- Names use at most 128 platform-safe ASCII characters. The shared field allows
+  empty draft/reference values; list/get/set storage requires a nonempty name.
 - Lookup returns a one-column schema with name as the selection key. Shared SQL
   lookup applies ordinary text filters, search, and sorting before paging and
   returns matching counts. Importing the field performs no database or UUI work.

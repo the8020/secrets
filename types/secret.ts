@@ -1,24 +1,27 @@
 import { field, z } from "/p/the8020/db/fields.ts";
 
-export const secretName: z.ZodString = field(z.string(), {
-  label: "Secret",
-  description: "A saved credential, such as a repository access token.",
-  valueHelp: async (request) => {
-    const { default: Secrets } = await import("../tables/secrets.ts");
-    const { lookupPage } = await import("/p/the8020/db/lookup.ts");
-    return lookupPage(
-      z.object({ name: secretName }),
-      Secrets.select([Secrets.name]),
-      request,
-    );
+export const secretName: z.ZodString = field(
+  z.string().trim().max(128).regex(/^(?:[A-Za-z0-9][A-Za-z0-9._-]*)?$/),
+  {
+    label: "Secret",
+    description: "A saved credential, such as a repository access token.",
+    valueHelp: async (request) => {
+      const { default: Secrets } = await import("../tables/secrets.ts");
+      const { lookupPage } = await import("/p/the8020/db/lookup.ts");
+      return lookupPage(
+        z.object({ name: secretName }),
+        Secrets.select([Secrets.name]),
+        request,
+      );
+    },
+    open: async (name) => {
+      const { default: secrets } = await import(
+        "/p/the8020/admin-core/programs/secrets/program.ts"
+      );
+      await secrets(name);
+    },
   },
-  open: async (name) => {
-    const { default: secrets } = await import(
-      "/p/the8020/admin-core/programs/secrets/program.ts"
-    );
-    await secrets(name);
-  },
-});
+);
 
 export const secretInfo = z.object({
   value: field(z.string(), {

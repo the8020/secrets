@@ -125,20 +125,33 @@ below.
 
 # Ownership
 
-- Own the authored named-secret schema and administrative command programs.
+- Own the authored named-secret schema, `mod.ts` list/get/set API, automatic
+  encryption/decryption, and administrative command programs.
 - Do not own database credentials, node-private credentials, secret consumers,
   authorization, or encryption-key management.
 
 # Local Contracts
 
-- Secret values are available only to trusted kernel operations and explicit
-  authenticated reads. Lists and writes never echo values.
+- Consumers import `mod.ts`; the kernel SDK has no named-secret storage API.
+  Explicit get decrypts values for trusted callers. Lists and writes return
+  names/update times only. Native Git resolves credentials through the ordinary
+  `the8020/secrets/get` program, without reading secret rows itself.
+- Set validates 1–65536 well-formed UTF-8 bytes without trimming the value,
+  calls `kernel.crypto.encrypt("app-secret-store", bytes, encodedName)`, and
+  upserts only its authenticated ciphertext. Get calls decrypt with the same
+  purpose and name as associated data; moved/tampered/plaintext rows fail. List
+  selects only names/timestamps, ordered by name, bounded to 10000 entries.
+- The native primitive derives a private AES-256-GCM key from the system's
+  master key. It never exports master/derived keys to packages. Preserve the
+  master-key file with database backups and provision the same key to all nodes
+  of one system. Replacing it makes existing ciphertext unreadable. Separate
+  systems need no common key. Fresh instances use this contract; no plaintext
+  migration or old-key fallback exists.
 - `types/secret.ts` defines the reusable secret-name schema. Its lazy value help
   selects names only, searches case-insensitively in SQL, and fetches at most
   the requested page plus one look-ahead row. Its open callback calls the
   ordinary admin-core Secrets screen; importing a field performs no runtime
   work.
-- Do not add reversible encryption without a separately managed root key.
 - Flat `cbus/commands/*.toml` declarations use a required `command` field for
   the complete public name; filenames are arbitrary. They map visible
   `secrets.*` commands to non-discoverable ordinary programs. `secrets.set`
@@ -152,7 +165,7 @@ below.
   unsupported additions at closeout; agent-written tests and DOX do not
   authorize them. Preserve required correctness, security, and data integrity.
 
-- Keep this package focused on named-secret schemas and explicit administration.
+- Keep this package focused on named-secret storage and explicit administration.
   Consumers own their workflows; reuse the semantic secret-name field and typed
   access contract without moving consumer policy into the kernel or secret
   store.
@@ -163,4 +176,7 @@ below.
 # Verification
 
 - `deno task check` formats, lints, and type-checks all table modules.
-- `deno task test` verifies the stable descriptor without exposing values.
+- `deno task test` verifies descriptors, name-only help, encrypted SQL writes,
+  transparent reads, randomized ciphertext, authenticated row names, plaintext
+  rejection, bounds, and value-free summaries. Native crypto tests verify
+  derivation, purpose/key separation, and tamper rejection.
