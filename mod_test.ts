@@ -9,9 +9,11 @@ import { createTableSQL } from "/p/the8020/db/internal/ddl.ts";
 
 const globals = globalThis as unknown as Record<symbol, unknown>;
 globals[kernelDatabaseBackendSymbol] = "sqlite";
-const { descriptorOf } = await import("/p/the8020/db/mod.ts");
+const { descriptorOf, transaction } = await import("/p/the8020/db/mod.ts");
 const { default: Secrets } = await import("./tables/secrets.ts");
-const { getSecret, setSecret, listSecrets } = await import("./mod.ts");
+const { getSecret, setSecret, deleteSecret, listSecrets } = await import(
+  "./mod.ts"
+);
 
 Deno.test("secret storage encrypts writes and authenticates reads without exposing values in summaries", async () => {
   const database = new DatabaseSync(":memory:");
@@ -25,6 +27,11 @@ Deno.test("secret storage encrypts writes and authenticates reads without exposi
     ["encrypt", "decrypt"],
   );
   globals[kernelInvokeSymbol] = (async (operation, input) => {
+    if (operation.startsWith("database.transaction.")) {
+      const action = operation.split(".").at(-1)!;
+      database.exec(action === "begin" ? "BEGIN" : action.toUpperCase());
+      return { transaction: "transaction" };
+    }
     if (operation === "database.execute") {
       const statement = database.prepare(String(input.statement));
       const parameters = (input.parameters as unknown[]).map((value) =>
@@ -95,6 +102,21 @@ Deno.test("secret storage encrypts writes and authenticates reads without exposi
     );
     assert(stored.startsWith("v1:") && !stored.includes(value));
     assertEquals(await listSecrets(), [summary]);
+    await assertRejects(() =>
+      transaction({ timeoutMs: 2000 }, async (tx) => {
+        await setSecret({ name: "replacement", value }, tx);
+        await deleteSecret("github", tx);
+        throw new Error("roll back certificate and key replacement");
+      })
+    );
+    assertEquals((await getSecret("github")).value, value);
+    await assertRejects(() => getSecret("replacement"));
+    await transaction({ timeoutMs: 2000 }, async (tx) => {
+      await setSecret({ name: "replacement", value }, tx);
+    });
+    assertEquals((await getSecret("replacement")).value, value);
+    await deleteSecret("replacement");
+    await assertRejects(() => getSecret("replacement"));
     await setSecret({ name: "github", value });
     assert(
       stored !==

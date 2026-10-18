@@ -1,4 +1,6 @@
 import { kernel } from "@the8020/kernel";
+import { type Database, db } from "/p/the8020/db/mod.ts";
+import type { Kysely } from "/p/the8020/db/kysely.ts";
 import Secrets from "./tables/secrets.ts";
 import { secretInfo, secretName } from "./types/secret.ts";
 
@@ -27,7 +29,10 @@ export async function getSecret(name: string) {
   return { name, value, updated_at: row.updatedAt.toISOString() };
 }
 
-export async function setSecret(input: { name: string; value: string }) {
+export async function setSecret(
+  input: { name: string; value: string },
+  database: Kysely<Database> = db,
+) {
   const name = secretName.min(1).parse(input.name);
   const value = secretInfo.shape.value.parse(input.value);
   if (
@@ -42,9 +47,21 @@ export async function setSecret(input: { name: string; value: string }) {
     encoder.encode(name),
   );
   const updatedAt = new Date();
-  await Secrets.insert({ name, value: encrypted, updatedAt }).onConflict((
+  await database.insertInto(Secrets.table).values({
+    name,
+    value: encrypted,
+    updatedAt,
+  }).onConflict((
     conflict,
   ) => conflict.column("name").doUpdateSet({ value: encrypted, updatedAt }))
     .execute();
   return { name, updated_at: updatedAt.toISOString() };
+}
+
+export async function deleteSecret(
+  name: string,
+  database: Kysely<Database> = db,
+) {
+  name = secretName.min(1).parse(name);
+  await database.deleteFrom(Secrets.table).where("name", "=", name).execute();
 }

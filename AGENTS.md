@@ -125,8 +125,8 @@ below.
 
 # Ownership
 
-- Own the authored named-secret schema, `mod.ts` list/get/set API, automatic
-  encryption/decryption, and administrative command programs.
+- Own the authored named-secret schema, `mod.ts` list/get/set/delete API,
+  automatic encryption/decryption, and administrative command programs.
 - Do not own database credentials, node-private credentials, secret consumers,
   authorization, or encryption-key management.
 
@@ -141,6 +141,9 @@ below.
   upserts only its authenticated ciphertext. Get calls decrypt with the same
   purpose and name as associated data; moved/tampered/plaintext rows fail. List
   selects only names/timestamps, ordered by name, bounded to 10000 entries.
+- `setSecret` and `deleteSecret` accept an optional caller transaction so a
+  consumer can commit a secret and its owning record atomically. Encryption
+  stays here; consumers never write ciphertext or implement its format.
 - The native primitive derives a private AES-256-GCM key from the system's
   master key. It never exports master/derived keys to packages. Preserve the
   master-key file with database backups and provision the same key to all nodes
@@ -173,6 +176,15 @@ below.
   derived state. Repair access-contract defects once at that owner and verify
   the affected consumer without exposing credentials.
 
+## UI Rules
+
+- Do not add explanatory helper copy that restates what the control already
+  implies (e.g. "optional", "works without selection", "failure falls back to
+  X"). Prefer clear labels and option text; surface status in results when
+  needed, not as instructional paragraphs under every field.
+- Keep UI copy concise. Avoid tutorial-style descriptions unless the user
+  explicitly asks for onboarding help.
+
 # Verification
 
 - `deno task check` formats, lints, and type-checks all table modules.
@@ -180,3 +192,5 @@ below.
   transparent reads, randomized ciphertext, authenticated row names, plaintext
   rejection, bounds, and value-free summaries. Native crypto tests verify
   derivation, purpose/key separation, and tamper rejection.
+- Transaction checks cover committing a new secret and rolling back a
+  replacement/deletion with its caller's transaction.
