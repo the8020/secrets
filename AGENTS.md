@@ -132,6 +132,14 @@ below.
 
 # Local Contracts
 
+- User-facing operations go through `src/admin.ts`: `secrets.list()` keeps names
+  viewable under `the8020.secrets.secret.view`, `get` requires
+  `the8020.secrets.secret.read`, `set`/`delete` require
+  `the8020.secrets.secret.edit`; values are the secret name. The `secrets.*`
+  commands and the admin Secrets screen use them, and secret-name value help
+  filters names in SQL with auth's `sqlPredicate`. `mod.ts` remains the trusted
+  consumer API for packages that authorize their own operations; the kernel's
+  Git credential lookup runs `secrets/get` as `system`.
 - Consumers import `mod.ts`; the kernel SDK has no named-secret storage API.
   Explicit get decrypts values for trusted callers. Lists and writes return
   names/update times only. Native Git resolves credentials through the ordinary

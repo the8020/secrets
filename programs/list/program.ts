@@ -1,2 +1,2 @@
-import { listSecrets } from "../../mod.ts";
-export default () => listSecrets().then((secrets) => ({ secrets }));
+import { secrets } from "../../src/admin.ts";
+export default () => secrets.list().then((secrets) => ({ secrets }));

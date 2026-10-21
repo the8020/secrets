@@ -1,0 +1,3 @@
+"the8020.secrets.secret.view" = "See a secret's name and update time, including in secret choices; value is the secret name."
+"the8020.secrets.secret.read" = "Read a secret's decrypted value; value is the secret name."
+"the8020.secrets.secret.edit" = "Create, replace or delete a secret; value is the secret name."

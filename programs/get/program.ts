@@ -1,6 +1,6 @@
-import { getSecret } from "../../mod.ts";
+import { secrets } from "../../src/admin.ts";
 import { requiredCommandArgument } from "/p/the8020/packages/commands.ts";
 export default (...args: string[]) =>
-  getSecret(requiredCommandArgument(args, 0, "secret name")).then((
+  secrets.get(requiredCommandArgument(args, 0, "secret name")).then((
     secret,
   ) => ({ secret }));

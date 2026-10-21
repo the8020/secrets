@@ -5,6 +5,7 @@ import {
 } from "@the8020/kernel";
 import { fieldMetadata } from "/p/the8020/db/fields.ts";
 import { secretName } from "../types/secret.ts";
+import { installContextProvider } from "../../kernel/defaults/config/runtime/deno/context/runtime.ts";
 
 (globalThis as unknown as Record<symbol, unknown>)[
   kernelDatabaseBackendSymbol
@@ -44,6 +45,18 @@ Deno.test("secret value help reads only names and applies database paging", asyn
       rows: [["GitHub"]],
     });
   };
+  // The system principal sees every name; others get a permission filter.
+  const restore = installContextProvider(() => ({
+    type: "program",
+    id: "the8020/secrets/test",
+    userId: "user:system",
+    username: "system",
+    authenticated: true,
+    nodeId: "test",
+    sandboxId: "test",
+    workerId: "test",
+    contextId: "test",
+  }));
   try {
     const page = await fieldMetadata(secretName)?.valueHelp?.({
       query: { search: " GIT ", filters: {}, sort: null },
@@ -53,6 +66,7 @@ Deno.test("secret value help reads only names and applies database paging", asyn
     assertEquals(page?.rows, [{ name: "GitHub" }]);
     assertEquals([page?.more, page?.totalItems], [true, 5]);
   } finally {
+    restore();
     globals[kernelInvokeSymbol] = previous;
   }
 });

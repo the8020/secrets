@@ -8,9 +8,14 @@ export const secretName: z.ZodString = field(
     valueHelp: async (request) => {
       const { default: Secrets } = await import("../tables/secrets.ts");
       const { lookupPage } = await import("/p/the8020/db/lookup.ts");
+      const { sqlPredicate } = await import("/p/the8020/auth/mod.ts");
+      const { context } = await import("@the8020/context");
+      const { VIEW } = await import("../src/admin.ts");
+      // Offer only names the current user may view.
+      const viewable = await sqlPredicate(context.username, VIEW, "name");
       return lookupPage(
         z.object({ name: secretName }),
-        Secrets.select([Secrets.name]),
+        Secrets.select([Secrets.name]).where(viewable),
         request,
       );
     },
