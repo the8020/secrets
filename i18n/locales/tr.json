@@ -1,0 +1,18 @@
+{
+  "name": "Türkçe",
+  "texts": {
+    "secret.secret": "Gizli bilgi",
+    "secret.a_saved_credential_such_as_a_repository": "Depo erişim belirteci gibi kaydedilmiş bir kimlik bilgisi.",
+    "secret.value": "Değer",
+    "secret.paste_the_credential_to_save_saving_an": "Kaydedilecek kimlik bilgisini yapıştırın. Mevcut bir gizli bilgiyi kaydetmek, geçerli değerini **değiştirir**.",
+    "secret.last_changed": "Son değişiklik",
+    "secret.when_this_credential_was_most_recently_replaced": "Bu kimlik bilgisinin en son ne zaman değiştirildiği.",
+    "package.description": "80|20 adlandırılmış ortak gizli bilgileri",
+    "programs.get.description": "Adlandırılmış bir gizli bilgiyi al",
+    "programs.set.description": "Adlandırılmış bir gizli bilgi ayarla",
+    "programs.list.description": "Adlandırılmış gizli bilgileri listele",
+    "declarations.auth.the8020.secrets.secret.view": "Seçim listeleri dâhil bir gizli bilginin adını ve güncellenme zamanını görme; değer, gizli bilginin adıdır.",
+    "declarations.auth.the8020.secrets.secret.read": "Bir gizli bilginin şifresi çözülmüş değerini okuma; değer, gizli bilginin adıdır.",
+    "declarations.auth.the8020.secrets.secret.edit": "Bir gizli bilgi oluşturma, değiştirme veya silme; değer, gizli bilginin adıdır."
+  }
+}

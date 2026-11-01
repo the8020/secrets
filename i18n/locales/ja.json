@@ -1,0 +1,18 @@
+{
+  "name": "日本語",
+  "texts": {
+    "secret.secret": "シークレット",
+    "secret.a_saved_credential_such_as_a_repository": "リポジトリのアクセストークンなど、保存された認証情報。",
+    "secret.value": "値",
+    "secret.paste_the_credential_to_save_saving_an": "保存する認証情報を貼り付けてください。既存のシークレットを保存すると、現在の値が**置き換えられます**。",
+    "secret.last_changed": "最終変更",
+    "secret.when_this_credential_was_most_recently_replaced": "この認証情報が最後に置き換えられた日時。",
+    "package.description": "80|20 の名前付き共有シークレット",
+    "programs.get.description": "名前を指定してシークレットを取得",
+    "programs.set.description": "名前付きシークレットを設定",
+    "programs.list.description": "名前付きシークレットを一覧表示",
+    "declarations.auth.the8020.secrets.secret.view": "選択リストを含め、シークレットの名前と更新日時を表示します。値にはシークレット名を指定します。",
+    "declarations.auth.the8020.secrets.secret.read": "シークレットの復号済みの値を読み取ります。値にはシークレット名を指定します。",
+    "declarations.auth.the8020.secrets.secret.edit": "シークレットを作成、置換、削除します。値にはシークレット名を指定します。"
+  }
+}

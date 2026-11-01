@@ -1,0 +1,18 @@
+{
+  "name": "Slovenščina",
+  "texts": {
+    "secret.secret": "Skrivnost",
+    "secret.a_saved_credential_such_as_a_repository": "Shranjena poverilnica, na primer žeton za dostop do repozitorija.",
+    "secret.value": "Vrednost",
+    "secret.paste_the_credential_to_save_saving_an": "Prilepite poverilnico, ki jo želite shraniti. Shranjevanje obstoječe skrivnosti **zamenja** njeno trenutno vrednost.",
+    "secret.last_changed": "Nazadnje spremenjeno",
+    "secret.when_this_credential_was_most_recently_replaced": "Kdaj je bila ta poverilnica nazadnje zamenjana.",
+    "package.description": "Poimenovane skupne skrivnosti 80|20",
+    "programs.get.description": "Pridobiti skrivnost po imenu",
+    "programs.set.description": "Nastaviti poimenovano skrivnost",
+    "programs.list.description": "Izpisati poimenovane skrivnosti",
+    "declarations.auth.the8020.secrets.secret.view": "Videti ime in čas posodobitve skrivnosti, tudi na izbirnih seznamih; vrednost je ime skrivnosti.",
+    "declarations.auth.the8020.secrets.secret.read": "Brati dešifrirano vrednost skrivnosti; vrednost je ime skrivnosti.",
+    "declarations.auth.the8020.secrets.secret.edit": "Ustvariti, zamenjati ali izbrisati skrivnost; vrednost je ime skrivnosti."
+  }
+}

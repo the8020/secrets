@@ -1,0 +1,18 @@
+{
+  "name": "Български",
+  "texts": {
+    "secret.secret": "Тайна",
+    "secret.a_saved_credential_such_as_a_repository": "Запазени идентификационни данни, например токен за достъп до хранилище.",
+    "secret.value": "Стойност",
+    "secret.paste_the_credential_to_save_saving_an": "Поставете идентификационните данни за запазване. Запазването на съществуваща тайна **заменя** текущата ѝ стойност.",
+    "secret.last_changed": "Последна промяна",
+    "secret.when_this_credential_was_most_recently_replaced": "Кога тези идентификационни данни са били заменени за последно.",
+    "package.description": "Именувани споделени тайни на 80|20",
+    "programs.get.description": "Получаване на тайна по име",
+    "programs.set.description": "Задаване на именувана тайна",
+    "programs.list.description": "Списък на именуваните тайни",
+    "declarations.auth.the8020.secrets.secret.view": "Преглед на името и времето на обновяване на тайна, включително в списъците за избор; стойността е името на тайната.",
+    "declarations.auth.the8020.secrets.secret.read": "Четене на дешифрираната стойност на тайна; стойността е името на тайната.",
+    "declarations.auth.the8020.secrets.secret.edit": "Създаване, замяна или изтриване на тайна; стойността е името на тайната."
+  }
+}

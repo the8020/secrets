@@ -1,0 +1,18 @@
+{
+  "name": "Eesti",
+  "texts": {
+    "secret.secret": "Saladus",
+    "secret.a_saved_credential_such_as_a_repository": "Salvestatud autentimisandmed, näiteks hoidla pääsutõend.",
+    "secret.value": "Väärtus",
+    "secret.paste_the_credential_to_save_saving_an": "Kleepige salvestatavad autentimisandmed. Olemasoleva saladuse salvestamine **asendab** selle praeguse väärtuse.",
+    "secret.last_changed": "Viimati muudetud",
+    "secret.when_this_credential_was_most_recently_replaced": "Millal need autentimisandmed viimati asendati.",
+    "package.description": "80|20 nimega jagatud saladused",
+    "programs.get.description": "Hangi saladus nime järgi",
+    "programs.set.description": "Määra nimega saladus",
+    "programs.list.description": "Loetle nimega saladused",
+    "declarations.auth.the8020.secrets.secret.view": "Vaadata saladuse nime ja uuendamisaega, ka valikuloendites; väärtus on saladuse nimi.",
+    "declarations.auth.the8020.secrets.secret.read": "Lugeda saladuse dekrüptitud väärtust; väärtus on saladuse nimi.",
+    "declarations.auth.the8020.secrets.secret.edit": "Luua, asendada või kustutada saladus; väärtus on saladuse nimi."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Tiếng Việt",
+  "texts": {
+    "secret.secret": "Bí mật",
+    "secret.a_saved_credential_such_as_a_repository": "Thông tin xác thực đã lưu, chẳng hạn mã truy cập kho mã.",
+    "secret.value": "Giá trị",
+    "secret.paste_the_credential_to_save_saving_an": "Dán thông tin xác thực cần lưu. Lưu một bí mật đã có sẽ **thay thế** giá trị hiện tại của nó.",
+    "secret.last_changed": "Lần thay đổi cuối",
+    "secret.when_this_credential_was_most_recently_replaced": "Thời điểm thông tin xác thực này được thay thế gần nhất.",
+    "package.description": "Các bí mật dùng chung có tên của 80|20",
+    "programs.get.description": "Lấy bí mật theo tên",
+    "programs.set.description": "Đặt bí mật có tên",
+    "programs.list.description": "Liệt kê các bí mật có tên",
+    "declarations.auth.the8020.secrets.secret.view": "Xem tên và thời điểm cập nhật bí mật, kể cả trong danh sách lựa chọn; giá trị là tên bí mật.",
+    "declarations.auth.the8020.secrets.secret.read": "Đọc giá trị đã giải mã của bí mật; giá trị là tên bí mật.",
+    "declarations.auth.the8020.secrets.secret.edit": "Tạo, thay thế hoặc xóa bí mật; giá trị là tên bí mật."
+  }
+}

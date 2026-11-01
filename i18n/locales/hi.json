@@ -1,0 +1,18 @@
+{
+  "name": "हिन्दी",
+  "texts": {
+    "secret.secret": "सीक्रेट",
+    "secret.a_saved_credential_such_as_a_repository": "सहेजी गई प्रमाणीकरण जानकारी, जैसे किसी रिपॉज़िटरी का एक्सेस टोकन।",
+    "secret.value": "मान",
+    "secret.paste_the_credential_to_save_saving_an": "सहेजने के लिए प्रमाणीकरण जानकारी पेस्ट करें। किसी मौजूदा सीक्रेट को सहेजने पर उसका वर्तमान मान **बदल दिया जाता है**।",
+    "secret.last_changed": "आखिरी बदलाव",
+    "secret.when_this_credential_was_most_recently_replaced": "इस प्रमाणीकरण जानकारी को आखिरी बार कब बदला गया था।",
+    "package.description": "80|20 के नाम वाले साझा सीक्रेट",
+    "programs.get.description": "नाम से सीक्रेट प्राप्त करें",
+    "programs.set.description": "नाम वाला सीक्रेट सेट करें",
+    "programs.list.description": "नाम वाले सीक्रेट की सूची दिखाएँ",
+    "declarations.auth.the8020.secrets.secret.view": "चयन सूचियों सहित सीक्रेट का नाम और अपडेट का समय देखें; मान सीक्रेट का नाम है।",
+    "declarations.auth.the8020.secrets.secret.read": "सीक्रेट का डिक्रिप्ट किया गया मान पढ़ें; मान सीक्रेट का नाम है।",
+    "declarations.auth.the8020.secrets.secret.edit": "सीक्रेट बनाएँ, बदलें या हटाएँ; मान सीक्रेट का नाम है।"
+  }
+}

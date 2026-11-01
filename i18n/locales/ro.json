@@ -1,0 +1,18 @@
+{
+  "name": "Română",
+  "texts": {
+    "secret.secret": "Secret",
+    "secret.a_saved_credential_such_as_a_repository": "O credențială salvată, de exemplu un token de acces la un depozit.",
+    "secret.value": "Valoare",
+    "secret.paste_the_credential_to_save_saving_an": "Lipiți credențiala de salvat. Salvarea unui secret existent **înlocuiește** valoarea sa curentă.",
+    "secret.last_changed": "Ultima modificare",
+    "secret.when_this_credential_was_most_recently_replaced": "Când a fost înlocuită ultima dată această credențială.",
+    "package.description": "Secrete partajate cu nume pentru 80|20",
+    "programs.get.description": "Obținerea unui secret după nume",
+    "programs.set.description": "Setarea unui secret cu nume",
+    "programs.list.description": "Listarea secretelor cu nume",
+    "declarations.auth.the8020.secrets.secret.view": "Vizualizarea numelui și a momentului actualizării unui secret, inclusiv în listele de selecție; valoarea este numele secretului.",
+    "declarations.auth.the8020.secrets.secret.read": "Citirea valorii decriptate a unui secret; valoarea este numele secretului.",
+    "declarations.auth.the8020.secrets.secret.edit": "Crearea, înlocuirea sau ștergerea unui secret; valoarea este numele secretului."
+  }
+}

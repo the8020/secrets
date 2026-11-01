@@ -1,0 +1,18 @@
+{
+  "name": "Українська",
+  "texts": {
+    "secret.secret": "Секрет",
+    "secret.a_saved_credential_such_as_a_repository": "Збережені облікові дані, наприклад токен доступу до репозиторію.",
+    "secret.value": "Значення",
+    "secret.paste_the_credential_to_save_saving_an": "Вставте облікові дані для збереження. Збереження наявного секрету **замінює** його поточне значення.",
+    "secret.last_changed": "Остання зміна",
+    "secret.when_this_credential_was_most_recently_replaced": "Коли ці облікові дані востаннє було замінено.",
+    "package.description": "Іменовані спільні секрети 80|20",
+    "programs.get.description": "Отримати секрет за назвою",
+    "programs.set.description": "Установити іменований секрет",
+    "programs.list.description": "Показати іменовані секрети",
+    "declarations.auth.the8020.secrets.secret.view": "Переглядати назву й час оновлення секрету, зокрема у списках вибору; значення — назва секрету.",
+    "declarations.auth.the8020.secrets.secret.read": "Читати розшифроване значення секрету; значення — назва секрету.",
+    "declarations.auth.the8020.secrets.secret.edit": "Створювати, замінювати або видаляти секрет; значення — назва секрету."
+  }
+}

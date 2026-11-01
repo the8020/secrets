@@ -1,0 +1,18 @@
+{
+  "name": "Español",
+  "texts": {
+    "secret.secret": "Secreto",
+    "secret.a_saved_credential_such_as_a_repository": "Una credencial guardada, como un token de acceso a un repositorio.",
+    "secret.value": "Valor",
+    "secret.paste_the_credential_to_save_saving_an": "Pegue la credencial que desea guardar. Guardar un secreto existente **sustituye** su valor actual.",
+    "secret.last_changed": "Última modificación",
+    "secret.when_this_credential_was_most_recently_replaced": "Cuándo se sustituyó esta credencial por última vez.",
+    "package.description": "Secretos compartidos con nombre de 80|20",
+    "programs.get.description": "Obtener un secreto por su nombre",
+    "programs.set.description": "Establecer un secreto con nombre",
+    "programs.list.description": "Listar secretos con nombre",
+    "declarations.auth.the8020.secrets.secret.view": "Ver el nombre y la fecha de actualización de un secreto, también en los selectores; el valor es el nombre del secreto.",
+    "declarations.auth.the8020.secrets.secret.read": "Leer el valor descifrado de un secreto; el valor es el nombre del secreto.",
+    "declarations.auth.the8020.secrets.secret.edit": "Crear, sustituir o eliminar un secreto; el valor es el nombre del secreto."
+  }
+}

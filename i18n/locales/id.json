@@ -1,0 +1,18 @@
+{
+  "name": "Bahasa Indonesia",
+  "texts": {
+    "secret.secret": "Rahasia",
+    "secret.a_saved_credential_such_as_a_repository": "Kredensial tersimpan, seperti token akses repositori.",
+    "secret.value": "Nilai",
+    "secret.paste_the_credential_to_save_saving_an": "Tempel kredensial yang akan disimpan. Menyimpan rahasia yang sudah ada **mengganti** nilai saat ini.",
+    "secret.last_changed": "Terakhir diubah",
+    "secret.when_this_credential_was_most_recently_replaced": "Kapan kredensial ini terakhir diganti.",
+    "package.description": "Rahasia bersama bernama 80|20",
+    "programs.get.description": "Ambil rahasia berdasarkan nama",
+    "programs.set.description": "Tetapkan rahasia bernama",
+    "programs.list.description": "Tampilkan daftar rahasia bernama",
+    "declarations.auth.the8020.secrets.secret.view": "Lihat nama dan waktu pembaruan rahasia, termasuk dalam daftar pilihan; nilainya adalah nama rahasia.",
+    "declarations.auth.the8020.secrets.secret.read": "Baca nilai rahasia yang telah didekripsi; nilainya adalah nama rahasia.",
+    "declarations.auth.the8020.secrets.secret.edit": "Buat, ganti, atau hapus rahasia; nilainya adalah nama rahasia."
+  }
+}

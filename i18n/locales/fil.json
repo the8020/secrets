@@ -1,0 +1,18 @@
+{
+  "name": "Filipino",
+  "texts": {
+    "secret.secret": "Sikreto",
+    "secret.a_saved_credential_such_as_a_repository": "Naka-save na kredensyal, gaya ng access token para sa repository.",
+    "secret.value": "Halaga",
+    "secret.paste_the_credential_to_save_saving_an": "I-paste ang kredensyal na ise-save. Ang pag-save ng kasalukuyang sikreto ay **papalit** sa kasalukuyang halaga nito.",
+    "secret.last_changed": "Huling binago",
+    "secret.when_this_credential_was_most_recently_replaced": "Kung kailan huling pinalitan ang kredensyal na ito.",
+    "package.description": "Mga pinangalanang nakabahaging sikreto ng 80|20",
+    "programs.get.description": "Kunin ang sikreto ayon sa pangalan",
+    "programs.set.description": "Magtakda ng pinangalanang sikreto",
+    "programs.list.description": "Ilista ang mga pinangalanang sikreto",
+    "declarations.auth.the8020.secrets.secret.view": "Tingnan ang pangalan at oras ng pag-update ng sikreto, pati sa mga listahan ng pagpipilian; ang halaga ay pangalan ng sikreto.",
+    "declarations.auth.the8020.secrets.secret.read": "Basahin ang na-decrypt na halaga ng sikreto; ang halaga ay pangalan ng sikreto.",
+    "declarations.auth.the8020.secrets.secret.edit": "Gumawa, magpalit, o magtanggal ng sikreto; ang halaga ay pangalan ng sikreto."
+  }
+}

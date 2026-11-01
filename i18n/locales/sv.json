@@ -1,0 +1,18 @@
+{
+  "name": "Svenska",
+  "texts": {
+    "secret.secret": "Hemlighet",
+    "secret.a_saved_credential_such_as_a_repository": "Sparade autentiseringsuppgifter, till exempel en åtkomsttoken till ett kodförråd.",
+    "secret.value": "Värde",
+    "secret.paste_the_credential_to_save_saving_an": "Klistra in autentiseringsuppgifterna som ska sparas. Om en befintlig hemlighet sparas **ersätts** dess nuvarande värde.",
+    "secret.last_changed": "Senast ändrad",
+    "secret.when_this_credential_was_most_recently_replaced": "När dessa autentiseringsuppgifter senast ersattes.",
+    "package.description": "Namngivna delade hemligheter i 80|20",
+    "programs.get.description": "Hämta en namngiven hemlighet",
+    "programs.set.description": "Ange en namngiven hemlighet",
+    "programs.list.description": "Lista namngivna hemligheter",
+    "declarations.auth.the8020.secrets.secret.view": "Se en hemlighets namn och uppdateringstid, även i urvalslistor; värdet är hemlighetens namn.",
+    "declarations.auth.the8020.secrets.secret.read": "Läsa en hemlighets dekrypterade värde; värdet är hemlighetens namn.",
+    "declarations.auth.the8020.secrets.secret.edit": "Skapa, ersätta eller ta bort en hemlighet; värdet är hemlighetens namn."
+  }
+}

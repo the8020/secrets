@@ -1,0 +1,18 @@
+{
+  "name": "Русский",
+  "texts": {
+    "secret.secret": "Секрет",
+    "secret.a_saved_credential_such_as_a_repository": "Сохранённые учётные данные, например токен доступа к репозиторию.",
+    "secret.value": "Значение",
+    "secret.paste_the_credential_to_save_saving_an": "Вставьте учётные данные для сохранения. Сохранение существующего секрета **заменяет** его текущее значение.",
+    "secret.last_changed": "Последнее изменение",
+    "secret.when_this_credential_was_most_recently_replaced": "Когда эти учётные данные были заменены в последний раз.",
+    "package.description": "Именованные общие секреты 80|20",
+    "programs.get.description": "Получить секрет по имени",
+    "programs.set.description": "Задать именованный секрет",
+    "programs.list.description": "Вывести список именованных секретов",
+    "declarations.auth.the8020.secrets.secret.view": "Просматривать имя и время обновления секрета, в том числе в списках выбора; значение — имя секрета.",
+    "declarations.auth.the8020.secrets.secret.read": "Читать расшифрованное значение секрета; значение — имя секрета.",
+    "declarations.auth.the8020.secrets.secret.edit": "Создавать, заменять или удалять секрет; значение — имя секрета."
+  }
+}

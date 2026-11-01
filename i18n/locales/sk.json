@@ -1,0 +1,18 @@
+{
+  "name": "Slovenčina",
+  "texts": {
+    "secret.secret": "Tajný údaj",
+    "secret.a_saved_credential_such_as_a_repository": "Uložený prihlasovací údaj, napríklad prístupový token k repozitáru.",
+    "secret.value": "Hodnota",
+    "secret.paste_the_credential_to_save_saving_an": "Vložte prihlasovací údaj, ktorý chcete uložiť. Uloženie existujúceho tajného údaja **nahradí** jeho aktuálnu hodnotu.",
+    "secret.last_changed": "Posledná zmena",
+    "secret.when_this_credential_was_most_recently_replaced": "Kedy bol tento prihlasovací údaj naposledy nahradený.",
+    "package.description": "Pomenované zdieľané tajné údaje 80|20",
+    "programs.get.description": "Získať pomenovaný tajný údaj",
+    "programs.set.description": "Nastaviť pomenovaný tajný údaj",
+    "programs.list.description": "Vypísať pomenované tajné údaje",
+    "declarations.auth.the8020.secrets.secret.view": "Zobraziť názov a čas zmeny tajného údaja, aj vo výbere; hodnotou je názov tajného údaja.",
+    "declarations.auth.the8020.secrets.secret.read": "Čítať dešifrovanú hodnotu tajného údaja; hodnotou je názov tajného údaja.",
+    "declarations.auth.the8020.secrets.secret.edit": "Vytvoriť, nahradiť alebo odstrániť tajný údaj; hodnotou je názov tajného údaja."
+  }
+}

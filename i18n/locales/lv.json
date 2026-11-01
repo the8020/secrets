@@ -1,0 +1,18 @@
+{
+  "name": "Latviešu",
+  "texts": {
+    "secret.secret": "Noslēpums",
+    "secret.a_saved_credential_such_as_a_repository": "Saglabāti autentifikācijas dati, piemēram, repozitorija piekļuves marķieris.",
+    "secret.value": "Vērtība",
+    "secret.paste_the_credential_to_save_saving_an": "Ielīmējiet saglabājamos autentifikācijas datus. Esoša noslēpuma saglabāšana **aizstāj** tā pašreizējo vērtību.",
+    "secret.last_changed": "Pēdējās izmaiņas",
+    "secret.when_this_credential_was_most_recently_replaced": "Kad šie autentifikācijas dati pēdējo reizi tika aizstāti.",
+    "package.description": "80|20 nosauktie koplietojamie noslēpumi",
+    "programs.get.description": "Iegūt noslēpumu pēc nosaukuma",
+    "programs.set.description": "Iestatīt nosauktu noslēpumu",
+    "programs.list.description": "Uzskaitīt nosauktos noslēpumus",
+    "declarations.auth.the8020.secrets.secret.view": "Skatīt noslēpuma nosaukumu un atjaunināšanas laiku, arī atlases sarakstos; vērtība ir noslēpuma nosaukums.",
+    "declarations.auth.the8020.secrets.secret.read": "Lasīt noslēpuma atšifrēto vērtību; vērtība ir noslēpuma nosaukums.",
+    "declarations.auth.the8020.secrets.secret.edit": "Izveidot, aizstāt vai dzēst noslēpumu; vērtība ir noslēpuma nosaukums."
+  }
+}

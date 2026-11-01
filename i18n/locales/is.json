@@ -1,0 +1,18 @@
+{
+  "name": "Íslenska",
+  "texts": {
+    "secret.secret": "Leyndarmál",
+    "secret.a_saved_credential_such_as_a_repository": "Vistuð auðkennisgögn, til dæmis aðgangstákn að kóðasafni.",
+    "secret.value": "Gildi",
+    "secret.paste_the_credential_to_save_saving_an": "Límdu inn auðkennisgögnin sem á að vista. Vistun á fyrirliggjandi leyndarmáli **skiptir út** núverandi gildi þess.",
+    "secret.last_changed": "Síðast breytt",
+    "secret.when_this_credential_was_most_recently_replaced": "Hvenær þessum auðkennisgögnum var síðast skipt út.",
+    "package.description": "Samnýtt, nafngreind leyndarmál í 80|20",
+    "programs.get.description": "Sækja nafngreint leyndarmál",
+    "programs.set.description": "Stilla nafngreint leyndarmál",
+    "programs.list.description": "Birta nafngreind leyndarmál",
+    "declarations.auth.the8020.secrets.secret.view": "Skoða nafn og uppfærslutíma leyndarmáls, einnig í vallistum; gildið er nafn leyndarmálsins.",
+    "declarations.auth.the8020.secrets.secret.read": "Lesa afkóðað gildi leyndarmáls; gildið er nafn leyndarmálsins.",
+    "declarations.auth.the8020.secrets.secret.edit": "Búa til, skipta út eða eyða leyndarmáli; gildið er nafn leyndarmálsins."
+  }
+}

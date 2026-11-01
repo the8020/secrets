@@ -1,0 +1,18 @@
+{
+  "name": "Lietuvių",
+  "texts": {
+    "secret.secret": "Paslaptis",
+    "secret.a_saved_credential_such_as_a_repository": "Išsaugoti prisijungimo duomenys, pavyzdžiui, saugyklos prieigos raktas.",
+    "secret.value": "Reikšmė",
+    "secret.paste_the_credential_to_save_saving_an": "Įklijuokite norimus išsaugoti prisijungimo duomenis. Išsaugojus esamą paslaptį, jos dabartinė reikšmė **pakeičiama**.",
+    "secret.last_changed": "Paskutinis pakeitimas",
+    "secret.when_this_credential_was_most_recently_replaced": "Kada šie prisijungimo duomenys paskutinį kartą buvo pakeisti.",
+    "package.description": "80|20 bendrinamos paslaptys su pavadinimais",
+    "programs.get.description": "Gauti paslaptį pagal pavadinimą",
+    "programs.set.description": "Nustatyti paslaptį su pavadinimu",
+    "programs.list.description": "Rodyti paslapčių su pavadinimais sąrašą",
+    "declarations.auth.the8020.secrets.secret.view": "Matyti paslapties pavadinimą ir atnaujinimo laiką, taip pat pasirinkimo sąrašuose; reikšmė yra paslapties pavadinimas.",
+    "declarations.auth.the8020.secrets.secret.read": "Skaityti iššifruotą paslapties reikšmę; reikšmė yra paslapties pavadinimas.",
+    "declarations.auth.the8020.secrets.secret.edit": "Kurti, pakeisti arba ištrinti paslaptį; reikšmė yra paslapties pavadinimas."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Suomi",
+  "texts": {
+    "secret.secret": "Salaisuus",
+    "secret.a_saved_credential_such_as_a_repository": "Tallennettu tunnistetieto, kuten koodivaraston käyttöoikeustunnus.",
+    "secret.value": "Arvo",
+    "secret.paste_the_credential_to_save_saving_an": "Liitä tallennettava tunnistetieto. Olemassa olevan salaisuuden tallentaminen **korvaa** sen nykyisen arvon.",
+    "secret.last_changed": "Viimeksi muutettu",
+    "secret.when_this_credential_was_most_recently_replaced": "Milloin tämä tunnistetieto on viimeksi korvattu.",
+    "package.description": "80|20:n nimetyt jaetut salaisuudet",
+    "programs.get.description": "Hae nimetty salaisuus",
+    "programs.set.description": "Aseta nimetty salaisuus",
+    "programs.list.description": "Luettele nimetyt salaisuudet",
+    "declarations.auth.the8020.secrets.secret.view": "Näytä salaisuuden nimi ja päivitysaika myös valintaluetteloissa; arvo on salaisuuden nimi.",
+    "declarations.auth.the8020.secrets.secret.read": "Lue salaisuuden salauspurettu arvo; arvo on salaisuuden nimi.",
+    "declarations.auth.the8020.secrets.secret.edit": "Luo, korvaa tai poista salaisuus; arvo on salaisuuden nimi."
+  }
+}

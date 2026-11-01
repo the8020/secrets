@@ -1,0 +1,18 @@
+{
+  "name": "Català",
+  "texts": {
+    "secret.secret": "Secret",
+    "secret.a_saved_credential_such_as_a_repository": "Una credencial desada, com ara un testimoni d’accés a un repositori.",
+    "secret.value": "Valor",
+    "secret.paste_the_credential_to_save_saving_an": "Enganxeu la credencial que voleu desar. Desar un secret existent **substitueix** el seu valor actual.",
+    "secret.last_changed": "Darrera modificació",
+    "secret.when_this_credential_was_most_recently_replaced": "Quan es va substituir aquesta credencial per darrera vegada.",
+    "package.description": "Secrets compartits amb nom de 80|20",
+    "programs.get.description": "Obtenir un secret pel seu nom",
+    "programs.set.description": "Establir un secret amb nom",
+    "programs.list.description": "Llistar els secrets amb nom",
+    "declarations.auth.the8020.secrets.secret.view": "Veure el nom i la data d’actualització d’un secret, també als selectors; el valor és el nom del secret.",
+    "declarations.auth.the8020.secrets.secret.read": "Llegir el valor desxifrat d’un secret; el valor és el nom del secret.",
+    "declarations.auth.the8020.secrets.secret.edit": "Crear, substituir o suprimir un secret; el valor és el nom del secret."
+  }
+}

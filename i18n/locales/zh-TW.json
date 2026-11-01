@@ -1,0 +1,18 @@
+{
+  "name": "繁體中文（台灣）",
+  "texts": {
+    "secret.secret": "機密",
+    "secret.a_saved_credential_such_as_a_repository": "已儲存的認證資訊，例如程式碼儲存庫的存取權杖。",
+    "secret.value": "值",
+    "secret.paste_the_credential_to_save_saving_an": "貼上要儲存的認證資訊。儲存現有機密會**取代**其目前的值。",
+    "secret.last_changed": "上次修改",
+    "secret.when_this_credential_was_most_recently_replaced": "上次取代此認證資訊的時間。",
+    "package.description": "80|20 具名共用機密",
+    "programs.get.description": "依名稱取得機密",
+    "programs.set.description": "設定具名機密",
+    "programs.list.description": "列出具名機密",
+    "declarations.auth.the8020.secrets.secret.view": "檢視機密的名稱和更新時間，包括選擇清單中的資訊；值為機密名稱。",
+    "declarations.auth.the8020.secrets.secret.read": "讀取機密解密後的值；值為機密名稱。",
+    "declarations.auth.the8020.secrets.secret.edit": "建立、取代或刪除機密；值為機密名稱。"
+  }
+}

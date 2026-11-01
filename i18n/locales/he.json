@@ -1,0 +1,18 @@
+{
+  "name": "עברית",
+  "texts": {
+    "secret.secret": "סוד",
+    "secret.a_saved_credential_such_as_a_repository": "פרטי גישה שמורים, כגון אסימון גישה למאגר קוד.",
+    "secret.value": "ערך",
+    "secret.paste_the_credential_to_save_saving_an": "יש להדביק את פרטי הגישה לשמירה. שמירת סוד קיים **מחליפה** את הערך הנוכחי שלו.",
+    "secret.last_changed": "שינוי אחרון",
+    "secret.when_this_credential_was_most_recently_replaced": "מתי פרטי הגישה האלה הוחלפו לאחרונה.",
+    "package.description": "סודות משותפים בעלי שם ב־\u206680|20\u2069",
+    "programs.get.description": "קבלת סוד לפי שם",
+    "programs.set.description": "הגדרת סוד בעל שם",
+    "programs.list.description": "הצגת רשימת הסודות בעלי השם",
+    "declarations.auth.the8020.secrets.secret.view": "הצגת שם הסוד ומועד העדכון שלו, גם ברשימות הבחירה; הערך הוא שם הסוד.",
+    "declarations.auth.the8020.secrets.secret.read": "קריאת הערך המפוענח של סוד; הערך הוא שם הסוד.",
+    "declarations.auth.the8020.secrets.secret.edit": "יצירה, החלפה או מחיקה של סוד; הערך הוא שם הסוד."
+  }
+}

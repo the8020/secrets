@@ -1,0 +1,18 @@
+{
+  "name": "Ελληνικά",
+  "texts": {
+    "secret.secret": "Μυστικό",
+    "secret.a_saved_credential_such_as_a_repository": "Αποθηκευμένο διαπιστευτήριο, όπως ένα διακριτικό πρόσβασης σε αποθετήριο.",
+    "secret.value": "Τιμή",
+    "secret.paste_the_credential_to_save_saving_an": "Επικολλήστε το διαπιστευτήριο προς αποθήκευση. Η αποθήκευση υπάρχοντος μυστικού **αντικαθιστά** την τρέχουσα τιμή του.",
+    "secret.last_changed": "Τελευταία αλλαγή",
+    "secret.when_this_credential_was_most_recently_replaced": "Πότε αντικαταστάθηκε τελευταία φορά αυτό το διαπιστευτήριο.",
+    "package.description": "Ονομασμένα κοινόχρηστα μυστικά του 80|20",
+    "programs.get.description": "Λήψη μυστικού με βάση το όνομα",
+    "programs.set.description": "Ορισμός ονομασμένου μυστικού",
+    "programs.list.description": "Λίστα ονομασμένων μυστικών",
+    "declarations.auth.the8020.secrets.secret.view": "Προβολή ονόματος και χρόνου ενημέρωσης μυστικού, και στις λίστες επιλογής· η τιμή είναι το όνομα του μυστικού.",
+    "declarations.auth.the8020.secrets.secret.read": "Ανάγνωση της αποκρυπτογραφημένης τιμής μυστικού· η τιμή είναι το όνομα του μυστικού.",
+    "declarations.auth.the8020.secrets.secret.edit": "Δημιουργία, αντικατάσταση ή διαγραφή μυστικού· η τιμή είναι το όνομα του μυστικού."
+  }
+}

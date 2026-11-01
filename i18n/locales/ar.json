@@ -1,0 +1,18 @@
+{
+  "name": "العربية",
+  "texts": {
+    "secret.secret": "سر",
+    "secret.a_saved_credential_such_as_a_repository": "بيانات اعتماد محفوظة، مثل رمز وصول إلى مستودع.",
+    "secret.value": "القيمة",
+    "secret.paste_the_credential_to_save_saving_an": "الصق بيانات الاعتماد المراد حفظها. حفظ سر موجود **يستبدل** قيمته الحالية.",
+    "secret.last_changed": "آخر تعديل",
+    "secret.when_this_credential_was_most_recently_replaced": "وقت آخر استبدال لبيانات الاعتماد هذه.",
+    "package.description": "الأسرار المشتركة المسماة في \u206680|20\u2069",
+    "programs.get.description": "الحصول على سر باسمه",
+    "programs.set.description": "تعيين سر مسمى",
+    "programs.list.description": "عرض الأسرار المسماة",
+    "declarations.auth.the8020.secrets.secret.view": "عرض اسم السر ووقت تحديثه، بما في ذلك قوائم الاختيار؛ القيمة هي اسم السر.",
+    "declarations.auth.the8020.secrets.secret.read": "قراءة قيمة السر بعد فك تشفيرها؛ القيمة هي اسم السر.",
+    "declarations.auth.the8020.secrets.secret.edit": "إنشاء سر أو استبداله أو حذفه؛ القيمة هي اسم السر."
+  }
+}

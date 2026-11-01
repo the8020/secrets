@@ -1,0 +1,18 @@
+{
+  "name": "Polski",
+  "texts": {
+    "secret.secret": "Sekret",
+    "secret.a_saved_credential_such_as_a_repository": "Zapisane dane uwierzytelniające, na przykład token dostępu do repozytorium.",
+    "secret.value": "Wartość",
+    "secret.paste_the_credential_to_save_saving_an": "Wklej dane uwierzytelniające do zapisania. Zapisanie istniejącego sekretu **zastępuje** jego bieżącą wartość.",
+    "secret.last_changed": "Ostatnia zmiana",
+    "secret.when_this_credential_was_most_recently_replaced": "Kiedy ostatnio zastąpiono te dane uwierzytelniające.",
+    "package.description": "Nazwane współdzielone sekrety 80|20",
+    "programs.get.description": "Pobrać sekret o podanej nazwie",
+    "programs.set.description": "Ustawić nazwany sekret",
+    "programs.list.description": "Wyświetlić nazwane sekrety",
+    "declarations.auth.the8020.secrets.secret.view": "Wyświetlać nazwę i czas aktualizacji sekretu, również na listach wyboru; wartością jest nazwa sekretu.",
+    "declarations.auth.the8020.secrets.secret.read": "Odczytywać odszyfrowaną wartość sekretu; wartością jest nazwa sekretu.",
+    "declarations.auth.the8020.secrets.secret.edit": "Tworzyć, zastępować lub usuwać sekret; wartością jest nazwa sekretu."
+  }
+}

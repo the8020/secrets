@@ -1,0 +1,18 @@
+{
+  "name": "فارسی",
+  "texts": {
+    "secret.secret": "راز",
+    "secret.a_saved_credential_such_as_a_repository": "اطلاعات احراز هویت ذخیره‌شده، مانند توکن دسترسی به مخزن.",
+    "secret.value": "مقدار",
+    "secret.paste_the_credential_to_save_saving_an": "اطلاعات احراز هویت موردنظر برای ذخیره را جای‌گذاری کنید. ذخیرهٔ راز موجود، مقدار فعلی آن را **جایگزین** می‌کند.",
+    "secret.last_changed": "آخرین تغییر",
+    "secret.when_this_credential_was_most_recently_replaced": "زمان آخرین جایگزینی این اطلاعات احراز هویت.",
+    "package.description": "رازهای اشتراکی نام‌دار \u206680|20\u2069",
+    "programs.get.description": "دریافت راز با نام آن",
+    "programs.set.description": "تنظیم راز نام‌دار",
+    "programs.list.description": "نمایش فهرست رازهای نام‌دار",
+    "declarations.auth.the8020.secrets.secret.view": "مشاهدهٔ نام و زمان به‌روزرسانی راز، از جمله در فهرست‌های انتخاب؛ مقدار، نام راز است.",
+    "declarations.auth.the8020.secrets.secret.read": "خواندن مقدار رمزگشایی‌شدهٔ راز؛ مقدار، نام راز است.",
+    "declarations.auth.the8020.secrets.secret.edit": "ایجاد، جایگزینی یا حذف راز؛ مقدار، نام راز است."
+  }
+}

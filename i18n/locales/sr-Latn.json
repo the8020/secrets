@@ -1,0 +1,18 @@
+{
+  "name": "Srpski (latinica)",
+  "texts": {
+    "secret.secret": "Tajna",
+    "secret.a_saved_credential_such_as_a_repository": "Sačuvan podatak za pristup, poput pristupnog tokena za repozitorijum.",
+    "secret.value": "Vrednost",
+    "secret.paste_the_credential_to_save_saving_an": "Nalepite podatak za pristup koji želite da sačuvate. Čuvanje postojeće tajne **zamenjuje** njenu trenutnu vrednost.",
+    "secret.last_changed": "Poslednja izmena",
+    "secret.when_this_credential_was_most_recently_replaced": "Kada je ovaj podatak za pristup poslednji put zamenjen.",
+    "package.description": "Imenovane zajedničke tajne sistema 80|20",
+    "programs.get.description": "Preuzeti tajnu po nazivu",
+    "programs.set.description": "Postaviti imenovanu tajnu",
+    "programs.list.description": "Prikazati imenovane tajne",
+    "declarations.auth.the8020.secrets.secret.view": "Videti naziv i vreme ažuriranja tajne, uključujući liste za izbor; vrednost je naziv tajne.",
+    "declarations.auth.the8020.secrets.secret.read": "Čitati dešifrovanu vrednost tajne; vrednost je naziv tajne.",
+    "declarations.auth.the8020.secrets.secret.edit": "Kreirati, zameniti ili obrisati tajnu; vrednost je naziv tajne."
+  }
+}

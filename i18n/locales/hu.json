@@ -1,0 +1,18 @@
+{
+  "name": "Magyar",
+  "texts": {
+    "secret.secret": "Titok",
+    "secret.a_saved_credential_such_as_a_repository": "Mentett hitelesítő adat, például egy tároló hozzáférési tokenje.",
+    "secret.value": "Érték",
+    "secret.paste_the_credential_to_save_saving_an": "Illessze be a mentendő hitelesítő adatot. Meglévő titok mentése **lecseréli** annak jelenlegi értékét.",
+    "secret.last_changed": "Utolsó módosítás",
+    "secret.when_this_credential_was_most_recently_replaced": "Mikor cserélték le legutóbb ezt a hitelesítő adatot.",
+    "package.description": "Az 80|20 elnevezett, megosztott titkai",
+    "programs.get.description": "Elnevezett titok lekérése",
+    "programs.set.description": "Elnevezett titok beállítása",
+    "programs.list.description": "Elnevezett titkok listázása",
+    "declarations.auth.the8020.secrets.secret.view": "A titok nevének és frissítési idejének megtekintése, a választólistákon is; az érték a titok neve.",
+    "declarations.auth.the8020.secrets.secret.read": "A titok visszafejtett értékének olvasása; az érték a titok neve.",
+    "declarations.auth.the8020.secrets.secret.edit": "Titok létrehozása, cseréje vagy törlése; az érték a titok neve."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Hrvatski",
+  "texts": {
+    "secret.secret": "Tajna",
+    "secret.a_saved_credential_such_as_a_repository": "Spremljena vjerodajnica, primjerice pristupni token za repozitorij.",
+    "secret.value": "Vrijednost",
+    "secret.paste_the_credential_to_save_saving_an": "Zalijepite vjerodajnicu koju želite spremiti. Spremanje postojeće tajne **zamjenjuje** njezinu trenutačnu vrijednost.",
+    "secret.last_changed": "Zadnja izmjena",
+    "secret.when_this_credential_was_most_recently_replaced": "Kada je ova vjerodajnica posljednji put zamijenjena.",
+    "package.description": "Imenovane zajedničke tajne sustava 80|20",
+    "programs.get.description": "Dohvatiti tajnu po nazivu",
+    "programs.set.description": "Postaviti imenovanu tajnu",
+    "programs.list.description": "Prikazati imenovane tajne",
+    "declarations.auth.the8020.secrets.secret.view": "Vidjeti naziv i vrijeme ažuriranja tajne, uključujući popise za odabir; vrijednost je naziv tajne.",
+    "declarations.auth.the8020.secrets.secret.read": "Čitati dešifriranu vrijednost tajne; vrijednost je naziv tajne.",
+    "declarations.auth.the8020.secrets.secret.edit": "Stvoriti, zamijeniti ili izbrisati tajnu; vrijednost je naziv tajne."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Bahasa Melayu",
+  "texts": {
+    "secret.secret": "Rahsia",
+    "secret.a_saved_credential_such_as_a_repository": "Bukti kelayakan yang disimpan, seperti token akses repositori.",
+    "secret.value": "Nilai",
+    "secret.paste_the_credential_to_save_saving_an": "Tampal bukti kelayakan untuk disimpan. Menyimpan rahsia yang sedia ada **menggantikan** nilai semasanya.",
+    "secret.last_changed": "Kali terakhir diubah",
+    "secret.when_this_credential_was_most_recently_replaced": "Masa bukti kelayakan ini kali terakhir digantikan.",
+    "package.description": "Rahsia kongsi bernama 80|20",
+    "programs.get.description": "Dapatkan rahsia mengikut nama",
+    "programs.set.description": "Tetapkan rahsia bernama",
+    "programs.list.description": "Senaraikan rahsia bernama",
+    "declarations.auth.the8020.secrets.secret.view": "Lihat nama dan masa kemas kini rahsia, termasuk dalam senarai pilihan; nilainya ialah nama rahsia.",
+    "declarations.auth.the8020.secrets.secret.read": "Baca nilai rahsia yang dinyahsulit; nilainya ialah nama rahsia.",
+    "declarations.auth.the8020.secrets.secret.edit": "Cipta, ganti atau padam rahsia; nilainya ialah nama rahsia."
+  }
+}

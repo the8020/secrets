@@ -1,0 +1,18 @@
+{
+  "name": "ไทย",
+  "texts": {
+    "secret.secret": "ข้อมูลลับ",
+    "secret.a_saved_credential_such_as_a_repository": "ข้อมูลรับรองที่บันทึกไว้ เช่น โทเค็นสำหรับเข้าถึงที่เก็บโค้ด",
+    "secret.value": "ค่า",
+    "secret.paste_the_credential_to_save_saving_an": "วางข้อมูลรับรองที่ต้องการบันทึก การบันทึกข้อมูลลับที่มีอยู่จะ **แทนที่** ค่าปัจจุบัน",
+    "secret.last_changed": "แก้ไขล่าสุด",
+    "secret.when_this_credential_was_most_recently_replaced": "เวลาที่ข้อมูลรับรองนี้ถูกแทนที่ครั้งล่าสุด",
+    "package.description": "ข้อมูลลับที่ใช้ร่วมกันและมีชื่อของ 80|20",
+    "programs.get.description": "เรียกข้อมูลลับตามชื่อ",
+    "programs.set.description": "กำหนดข้อมูลลับที่มีชื่อ",
+    "programs.list.description": "แสดงรายการข้อมูลลับที่มีชื่อ",
+    "declarations.auth.the8020.secrets.secret.view": "ดูชื่อและเวลาอัปเดตข้อมูลลับ รวมถึงในรายการตัวเลือก โดยค่าคือชื่อข้อมูลลับ",
+    "declarations.auth.the8020.secrets.secret.read": "อ่านค่าที่ถอดรหัสแล้วของข้อมูลลับ โดยค่าคือชื่อข้อมูลลับ",
+    "declarations.auth.the8020.secrets.secret.edit": "สร้าง แทนที่ หรือลบข้อมูลลับ โดยค่าคือชื่อข้อมูลลับ"
+  }
+}

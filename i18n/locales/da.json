@@ -1,0 +1,18 @@
+{
+  "name": "Dansk",
+  "texts": {
+    "secret.secret": "Hemmelighed",
+    "secret.a_saved_credential_such_as_a_repository": "Gemte legitimationsoplysninger, f.eks. et adgangstoken til et repository.",
+    "secret.value": "Værdi",
+    "secret.paste_the_credential_to_save_saving_an": "Indsæt de legitimationsoplysninger, der skal gemmes. Hvis en eksisterende hemmelighed gemmes, **erstattes** dens aktuelle værdi.",
+    "secret.last_changed": "Sidst ændret",
+    "secret.when_this_credential_was_most_recently_replaced": "Hvornår disse legitimationsoplysninger sidst blev erstattet.",
+    "package.description": "Navngivne delte hemmeligheder i 80|20",
+    "programs.get.description": "Hent en navngiven hemmelighed",
+    "programs.set.description": "Angiv en navngiven hemmelighed",
+    "programs.list.description": "Vis navngivne hemmeligheder",
+    "declarations.auth.the8020.secrets.secret.view": "Se en hemmeligheds navn og opdateringstid, også i valglister; værdien er hemmelighedens navn.",
+    "declarations.auth.the8020.secrets.secret.read": "Læs en hemmeligheds dekrypterede værdi; værdien er hemmelighedens navn.",
+    "declarations.auth.the8020.secrets.secret.edit": "Opret, erstat eller slet en hemmelighed; værdien er hemmelighedens navn."
+  }
+}

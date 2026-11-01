@@ -1,0 +1,18 @@
+{
+  "name": "Nederlands",
+  "texts": {
+    "secret.secret": "Geheim",
+    "secret.a_saved_credential_such_as_a_repository": "Opgeslagen inloggegevens, zoals een toegangstoken voor een repository.",
+    "secret.value": "Waarde",
+    "secret.paste_the_credential_to_save_saving_an": "Plak de inloggegevens die u wilt opslaan. Een bestaand geheim opslaan **vervangt** de huidige waarde.",
+    "secret.last_changed": "Laatst gewijzigd",
+    "secret.when_this_credential_was_most_recently_replaced": "Wanneer deze inloggegevens voor het laatst zijn vervangen.",
+    "package.description": "Gedeelde geheimen met een naam voor 80|20",
+    "programs.get.description": "Een geheim op naam ophalen",
+    "programs.set.description": "Een geheim met een naam instellen",
+    "programs.list.description": "Geheimen met een naam weergeven",
+    "declarations.auth.the8020.secrets.secret.view": "De naam en wijzigingstijd van een geheim bekijken, ook in keuzelijsten; de waarde is de naam van het geheim.",
+    "declarations.auth.the8020.secrets.secret.read": "De ontsleutelde waarde van een geheim lezen; de waarde is de naam van het geheim.",
+    "declarations.auth.the8020.secrets.secret.edit": "Een geheim aanmaken, vervangen of verwijderen; de waarde is de naam van het geheim."
+  }
+}

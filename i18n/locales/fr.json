@@ -1,0 +1,18 @@
+{
+  "name": "Français",
+  "texts": {
+    "secret.secret": "Secret",
+    "secret.a_saved_credential_such_as_a_repository": "Un identifiant enregistré, tel qu’un jeton d’accès à un dépôt.",
+    "secret.value": "Valeur",
+    "secret.paste_the_credential_to_save_saving_an": "Collez l’identifiant à enregistrer. Enregistrer un secret existant **remplace** sa valeur actuelle.",
+    "secret.last_changed": "Dernière modification",
+    "secret.when_this_credential_was_most_recently_replaced": "Date du dernier remplacement de cet identifiant.",
+    "package.description": "Secrets partagés nommés de 80|20",
+    "programs.get.description": "Obtenir un secret nommé",
+    "programs.set.description": "Définir un secret nommé",
+    "programs.list.description": "Lister les secrets nommés",
+    "declarations.auth.the8020.secrets.secret.view": "Voir le nom et la date de modification d’un secret, y compris dans les choix ; la valeur est le nom du secret.",
+    "declarations.auth.the8020.secrets.secret.read": "Lire la valeur déchiffrée d’un secret ; la valeur est le nom du secret.",
+    "declarations.auth.the8020.secrets.secret.edit": "Créer, remplacer ou supprimer un secret ; la valeur est le nom du secret."
+  }
+}

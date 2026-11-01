@@ -1,0 +1,18 @@
+{
+  "name": "Deutsch",
+  "texts": {
+    "secret.secret": "Geheimnis",
+    "secret.a_saved_credential_such_as_a_repository": "Gespeicherte Zugangsdaten, etwa ein Zugriffstoken für ein Repository.",
+    "secret.value": "Wert",
+    "secret.paste_the_credential_to_save_saving_an": "Fügen Sie die zu speichernden Zugangsdaten ein. Das Speichern eines vorhandenen Geheimnisses **ersetzt** seinen aktuellen Wert.",
+    "secret.last_changed": "Zuletzt geändert",
+    "secret.when_this_credential_was_most_recently_replaced": "Zeitpunkt, zu dem diese Zugangsdaten zuletzt ersetzt wurden.",
+    "package.description": "Benannte gemeinsame Geheimnisse für 80|20",
+    "programs.get.description": "Ein benanntes Geheimnis abrufen",
+    "programs.set.description": "Ein benanntes Geheimnis setzen",
+    "programs.list.description": "Benannte Geheimnisse auflisten",
+    "declarations.auth.the8020.secrets.secret.view": "Namen und Änderungszeit eines Geheimnisses anzeigen, auch in der Auswahl; der Wert ist der Name des Geheimnisses.",
+    "declarations.auth.the8020.secrets.secret.read": "Den entschlüsselten Wert eines Geheimnisses lesen; der Wert ist der Name des Geheimnisses.",
+    "declarations.auth.the8020.secrets.secret.edit": "Ein Geheimnis erstellen, ersetzen oder löschen; der Wert ist der Name des Geheimnisses."
+  }
+}

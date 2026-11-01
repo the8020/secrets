@@ -1,0 +1,18 @@
+{
+  "name": "Norsk bokmål",
+  "texts": {
+    "secret.secret": "Hemmelighet",
+    "secret.a_saved_credential_such_as_a_repository": "Lagret legitimasjon, for eksempel et tilgangstoken til et kodelager.",
+    "secret.value": "Verdi",
+    "secret.paste_the_credential_to_save_saving_an": "Lim inn legitimasjonen som skal lagres. Lagring av en eksisterende hemmelighet **erstatter** den nåværende verdien.",
+    "secret.last_changed": "Sist endret",
+    "secret.when_this_credential_was_most_recently_replaced": "Når denne legitimasjonen sist ble erstattet.",
+    "package.description": "Navngitte delte hemmeligheter i 80|20",
+    "programs.get.description": "Hent en navngitt hemmelighet",
+    "programs.set.description": "Angi en navngitt hemmelighet",
+    "programs.list.description": "List navngitte hemmeligheter",
+    "declarations.auth.the8020.secrets.secret.view": "Se navnet og oppdateringstidspunktet til en hemmelighet, også i valglister; verdien er hemmelighetens navn.",
+    "declarations.auth.the8020.secrets.secret.read": "Lese den dekrypterte verdien til en hemmelighet; verdien er hemmelighetens navn.",
+    "declarations.auth.the8020.secrets.secret.edit": "Opprette, erstatte eller slette en hemmelighet; verdien er hemmelighetens navn."
+  }
+}
