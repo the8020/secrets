@@ -1,10 +1,11 @@
+import { msg } from "/p/the8020/secrets/i18n/messages.ts";
 import { field, z } from "/p/the8020/db/fields.ts";
 
 export const secretName: z.ZodString = field(
   z.string().trim().max(128).regex(/^(?:[A-Za-z0-9][A-Za-z0-9._-]*)?$/),
   {
-    label: "Secret",
-    description: "A saved credential, such as a repository access token.",
+    label: msg("secret.secret"),
+    description: msg("secret.a_saved_credential_such_as_a_repository"),
     valueHelp: async (request) => {
       const { default: Secrets } = await import("../tables/secrets.ts");
       const { lookupPage } = await import("/p/the8020/db/lookup.ts");
@@ -30,12 +31,11 @@ export const secretName: z.ZodString = field(
 
 export const secretInfo = z.object({
   value: field(z.string(), {
-    label: "Value",
-    description:
-      "Paste the credential to save. Saving an existing secret **replaces** its current value.",
+    label: msg("secret.value"),
+    description: msg("secret.paste_the_credential_to_save_saving_an"),
   }),
   updatedAt: field(z.string(), {
-    label: "Last changed",
-    description: "When this credential was most recently replaced.",
+    label: msg("secret.last_changed"),
+    description: msg("secret.when_this_credential_was_most_recently_replaced"),
   }),
 });

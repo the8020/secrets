@@ -1,0 +1,18 @@
+{
+  "name": "English",
+  "texts": {
+    "secret.secret": "Secret",
+    "secret.a_saved_credential_such_as_a_repository": "A saved credential, such as a repository access token.",
+    "secret.value": "Value",
+    "secret.paste_the_credential_to_save_saving_an": "Paste the credential to save. Saving an existing secret **replaces** its current value.",
+    "secret.last_changed": "Last changed",
+    "secret.when_this_credential_was_most_recently_replaced": "When this credential was most recently replaced.",
+    "package.description": "80|20 named shared secrets",
+    "programs.get.description": "Get a named secret",
+    "programs.set.description": "Set a named secret",
+    "programs.list.description": "List named secrets",
+    "declarations.auth.the8020.secrets.secret.view": "See a secret's name and update time, including in secret choices; value is the secret name.",
+    "declarations.auth.the8020.secrets.secret.read": "Read a secret's decrypted value; value is the secret name.",
+    "declarations.auth.the8020.secrets.secret.edit": "Create, replace or delete a secret; value is the secret name."
+  }
+}
