@@ -13,6 +13,8 @@
     "programs.list.description": "Lister les secrets nommés",
     "declarations.auth.the8020.secrets.secret.view": "Voir le nom et la date de modification d’un secret, y compris dans les choix ; la valeur est le nom du secret.",
     "declarations.auth.the8020.secrets.secret.read": "Lire la valeur déchiffrée d’un secret ; la valeur est le nom du secret.",
-    "declarations.auth.the8020.secrets.secret.edit": "Créer, remplacer ou supprimer un secret ; la valeur est le nom du secret."
+    "declarations.auth.the8020.secrets.secret.edit": "Créer, remplacer ou supprimer un secret ; la valeur est le nom du secret.",
+    "admin.secret_is_in_use": "Le secret {name} est encore utilisé et ne peut pas être supprimé. Retirez-le d’abord des emplacements indiqués.",
+    "admin.secret_usage_could_not_be_checked": "Le secret {name} ne peut pas être supprimé, car son utilisation n’a pas pu être vérifiée dans certains paquets. Réessayez plus tard."
   }
 }

@@ -13,6 +13,8 @@
     "programs.list.description": "Izpisati poimenovane skrivnosti",
     "declarations.auth.the8020.secrets.secret.view": "Videti ime in čas posodobitve skrivnosti, tudi na izbirnih seznamih; vrednost je ime skrivnosti.",
     "declarations.auth.the8020.secrets.secret.read": "Brati dešifrirano vrednost skrivnosti; vrednost je ime skrivnosti.",
-    "declarations.auth.the8020.secrets.secret.edit": "Ustvariti, zamenjati ali izbrisati skrivnost; vrednost je ime skrivnosti."
+    "declarations.auth.the8020.secrets.secret.edit": "Ustvariti, zamenjati ali izbrisati skrivnost; vrednost je ime skrivnosti.",
+    "admin.secret_is_in_use": "Skrivnost {name} je še v uporabi in je ni mogoče izbrisati. Najprej jo odstranite z navedenih mest.",
+    "admin.secret_usage_could_not_be_checked": "Skrivnosti {name} ni mogoče izbrisati, ker za nekatere pakete ni bilo mogoče preveriti, ali jo uporabljajo. Poskusite znova pozneje."
   }
 }

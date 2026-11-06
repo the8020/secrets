@@ -13,6 +13,8 @@
     "programs.list.description": "列出命名机密",
     "declarations.auth.the8020.secrets.secret.view": "查看机密名称和更新时间，包括选择列表中的信息；值为机密名称。",
     "declarations.auth.the8020.secrets.secret.read": "读取机密解密后的值；值为机密名称。",
-    "declarations.auth.the8020.secrets.secret.edit": "创建、替换或删除机密；值为机密名称。"
+    "declarations.auth.the8020.secrets.secret.edit": "创建、替换或删除机密；值为机密名称。",
+    "admin.secret_is_in_use": "机密 {name} 仍在使用中，无法删除。请先从列出的位置中移除它。",
+    "admin.secret_usage_could_not_be_checked": "无法删除机密 {name}，因为无法检查部分软件包是否在使用它。请稍后重试。"
   }
 }

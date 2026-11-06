@@ -13,6 +13,8 @@
     "programs.list.description": "Listarea secretelor cu nume",
     "declarations.auth.the8020.secrets.secret.view": "Vizualizarea numelui și a momentului actualizării unui secret, inclusiv în listele de selecție; valoarea este numele secretului.",
     "declarations.auth.the8020.secrets.secret.read": "Citirea valorii decriptate a unui secret; valoarea este numele secretului.",
-    "declarations.auth.the8020.secrets.secret.edit": "Crearea, înlocuirea sau ștergerea unui secret; valoarea este numele secretului."
+    "declarations.auth.the8020.secrets.secret.edit": "Crearea, înlocuirea sau ștergerea unui secret; valoarea este numele secretului.",
+    "admin.secret_is_in_use": "Secretul {name} este încă folosit și nu poate fi șters. Eliminați-l mai întâi din locurile enumerate.",
+    "admin.secret_usage_could_not_be_checked": "Secretul {name} nu poate fi șters deoarece unele pachete nu au putut fi verificate pentru utilizarea lui. Încercați din nou mai târziu."
   }
 }

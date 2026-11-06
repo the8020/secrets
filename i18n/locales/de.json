@@ -13,6 +13,8 @@
     "programs.list.description": "Benannte Geheimnisse auflisten",
     "declarations.auth.the8020.secrets.secret.view": "Namen und Änderungszeit eines Geheimnisses anzeigen, auch in der Auswahl; der Wert ist der Name des Geheimnisses.",
     "declarations.auth.the8020.secrets.secret.read": "Den entschlüsselten Wert eines Geheimnisses lesen; der Wert ist der Name des Geheimnisses.",
-    "declarations.auth.the8020.secrets.secret.edit": "Ein Geheimnis erstellen, ersetzen oder löschen; der Wert ist der Name des Geheimnisses."
+    "declarations.auth.the8020.secrets.secret.edit": "Ein Geheimnis erstellen, ersetzen oder löschen; der Wert ist der Name des Geheimnisses.",
+    "admin.secret_is_in_use": "Das Geheimnis {name} wird noch verwendet und kann nicht gelöscht werden. Entfernen Sie es zuerst an den aufgeführten Stellen.",
+    "admin.secret_usage_could_not_be_checked": "Das Geheimnis {name} kann nicht gelöscht werden, da einige Pakete nicht auf seine Verwendung geprüft werden konnten. Versuchen Sie es später erneut."
   }
 }

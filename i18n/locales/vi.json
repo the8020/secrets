@@ -13,6 +13,8 @@
     "programs.list.description": "Liệt kê các bí mật có tên",
     "declarations.auth.the8020.secrets.secret.view": "Xem tên và thời điểm cập nhật bí mật, kể cả trong danh sách lựa chọn; giá trị là tên bí mật.",
     "declarations.auth.the8020.secrets.secret.read": "Đọc giá trị đã giải mã của bí mật; giá trị là tên bí mật.",
-    "declarations.auth.the8020.secrets.secret.edit": "Tạo, thay thế hoặc xóa bí mật; giá trị là tên bí mật."
+    "declarations.auth.the8020.secrets.secret.edit": "Tạo, thay thế hoặc xóa bí mật; giá trị là tên bí mật.",
+    "admin.secret_is_in_use": "Bí mật {name} vẫn đang được sử dụng nên không thể xóa. Trước tiên, hãy gỡ nó khỏi các vị trí được liệt kê.",
+    "admin.secret_usage_could_not_be_checked": "Không thể xóa bí mật {name} vì không thể kiểm tra việc sử dụng nó trong một số gói. Hãy thử lại sau."
   }
 }

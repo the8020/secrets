@@ -13,6 +13,8 @@
     "programs.list.description": "Seznam pojmenovaných tajných údajů",
     "declarations.auth.the8020.secrets.secret.view": "Zobrazení názvu a času aktualizace tajného údaje, včetně výběru tajných údajů; hodnotou je název tajného údaje.",
     "declarations.auth.the8020.secrets.secret.read": "Čtení dešifrované hodnoty tajného údaje; hodnotou je jeho název.",
-    "declarations.auth.the8020.secrets.secret.edit": "Vytvoření, nahrazení nebo smazání tajného údaje; hodnotou je jeho název."
+    "declarations.auth.the8020.secrets.secret.edit": "Vytvoření, nahrazení nebo smazání tajného údaje; hodnotou je jeho název.",
+    "admin.secret_is_in_use": "Tajný údaj {name} se stále používá a nelze jej smazat. Nejprve jej odeberte z uvedených míst.",
+    "admin.secret_usage_could_not_be_checked": "Tajný údaj {name} nelze smazat, protože u některých balíčků nebylo možné ověřit jeho použití. Zkuste to znovu později."
   }
 }

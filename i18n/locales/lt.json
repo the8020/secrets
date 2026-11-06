@@ -13,6 +13,8 @@
     "programs.list.description": "Rodyti paslapčių su pavadinimais sąrašą",
     "declarations.auth.the8020.secrets.secret.view": "Matyti paslapties pavadinimą ir atnaujinimo laiką, taip pat pasirinkimo sąrašuose; reikšmė yra paslapties pavadinimas.",
     "declarations.auth.the8020.secrets.secret.read": "Skaityti iššifruotą paslapties reikšmę; reikšmė yra paslapties pavadinimas.",
-    "declarations.auth.the8020.secrets.secret.edit": "Kurti, pakeisti arba ištrinti paslaptį; reikšmė yra paslapties pavadinimas."
+    "declarations.auth.the8020.secrets.secret.edit": "Kurti, pakeisti arba ištrinti paslaptį; reikšmė yra paslapties pavadinimas.",
+    "admin.secret_is_in_use": "Paslaptis {name} vis dar naudojama, todėl jos negalima ištrinti. Pirmiausia pašalinkite ją iš nurodytų vietų.",
+    "admin.secret_usage_could_not_be_checked": "Paslapties {name} negalima ištrinti, nes kai kurių paketų nepavyko patikrinti, ar jie ją naudoja. Bandykite vėliau."
   }
 }

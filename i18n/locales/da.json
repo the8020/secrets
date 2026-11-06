@@ -13,6 +13,8 @@
     "programs.list.description": "Vis navngivne hemmeligheder",
     "declarations.auth.the8020.secrets.secret.view": "Se en hemmeligheds navn og opdateringstid, også i valglister; værdien er hemmelighedens navn.",
     "declarations.auth.the8020.secrets.secret.read": "Læs en hemmeligheds dekrypterede værdi; værdien er hemmelighedens navn.",
-    "declarations.auth.the8020.secrets.secret.edit": "Opret, erstat eller slet en hemmelighed; værdien er hemmelighedens navn."
+    "declarations.auth.the8020.secrets.secret.edit": "Opret, erstat eller slet en hemmelighed; værdien er hemmelighedens navn.",
+    "admin.secret_is_in_use": "Hemmeligheden {name} er stadig i brug og kan ikke slettes. Fjern den først fra de viste steder.",
+    "admin.secret_usage_could_not_be_checked": "Hemmeligheden {name} kan ikke slettes, fordi nogle pakker ikke kunne kontrolleres for brug af den. Prøv igen senere."
   }
 }

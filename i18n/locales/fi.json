@@ -13,6 +13,8 @@
     "programs.list.description": "Luettele nimetyt salaisuudet",
     "declarations.auth.the8020.secrets.secret.view": "Näytä salaisuuden nimi ja päivitysaika myös valintaluetteloissa; arvo on salaisuuden nimi.",
     "declarations.auth.the8020.secrets.secret.read": "Lue salaisuuden salauspurettu arvo; arvo on salaisuuden nimi.",
-    "declarations.auth.the8020.secrets.secret.edit": "Luo, korvaa tai poista salaisuus; arvo on salaisuuden nimi."
+    "declarations.auth.the8020.secrets.secret.edit": "Luo, korvaa tai poista salaisuus; arvo on salaisuuden nimi.",
+    "admin.secret_is_in_use": "Salaisuus {name} on yhä käytössä, eikä sitä voi poistaa. Poista se ensin luetelluista kohteista.",
+    "admin.secret_usage_could_not_be_checked": "Salaisuutta {name} ei voi poistaa, koska sen käyttöä ei voitu tarkistaa joistakin paketeista. Yritä myöhemmin uudelleen."
   }
 }

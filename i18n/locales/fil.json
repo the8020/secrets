@@ -13,6 +13,8 @@
     "programs.list.description": "Ilista ang mga pinangalanang sikreto",
     "declarations.auth.the8020.secrets.secret.view": "Tingnan ang pangalan at oras ng pag-update ng sikreto, pati sa mga listahan ng pagpipilian; ang halaga ay pangalan ng sikreto.",
     "declarations.auth.the8020.secrets.secret.read": "Basahin ang na-decrypt na halaga ng sikreto; ang halaga ay pangalan ng sikreto.",
-    "declarations.auth.the8020.secrets.secret.edit": "Gumawa, magpalit, o magtanggal ng sikreto; ang halaga ay pangalan ng sikreto."
+    "declarations.auth.the8020.secrets.secret.edit": "Gumawa, magpalit, o magtanggal ng sikreto; ang halaga ay pangalan ng sikreto.",
+    "admin.secret_is_in_use": "Ginagamit pa ang sikretong {name} at hindi ito mabubura. Alisin muna ito sa mga nakalistang lugar.",
+    "admin.secret_usage_could_not_be_checked": "Hindi mabubura ang sikretong {name} dahil hindi nasuri ang ilang package kung ginagamit ito. Subukang muli mamaya."
   }
 }

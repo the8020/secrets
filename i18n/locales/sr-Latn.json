@@ -13,6 +13,8 @@
     "programs.list.description": "Prikazati imenovane tajne",
     "declarations.auth.the8020.secrets.secret.view": "Videti naziv i vreme ažuriranja tajne, uključujući liste za izbor; vrednost je naziv tajne.",
     "declarations.auth.the8020.secrets.secret.read": "Čitati dešifrovanu vrednost tajne; vrednost je naziv tajne.",
-    "declarations.auth.the8020.secrets.secret.edit": "Kreirati, zameniti ili obrisati tajnu; vrednost je naziv tajne."
+    "declarations.auth.the8020.secrets.secret.edit": "Kreirati, zameniti ili obrisati tajnu; vrednost je naziv tajne.",
+    "admin.secret_is_in_use": "Tajna {name} se još koristi i ne može da se obriše. Prvo je ukloni sa navedenih mesta.",
+    "admin.secret_usage_could_not_be_checked": "Tajna {name} ne može da se obriše jer za neke pakete nije moglo da se proveri da li je koriste. Pokušaj ponovo kasnije."
   }
 }

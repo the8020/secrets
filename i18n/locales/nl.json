@@ -13,6 +13,8 @@
     "programs.list.description": "Geheimen met een naam weergeven",
     "declarations.auth.the8020.secrets.secret.view": "De naam en wijzigingstijd van een geheim bekijken, ook in keuzelijsten; de waarde is de naam van het geheim.",
     "declarations.auth.the8020.secrets.secret.read": "De ontsleutelde waarde van een geheim lezen; de waarde is de naam van het geheim.",
-    "declarations.auth.the8020.secrets.secret.edit": "Een geheim aanmaken, vervangen of verwijderen; de waarde is de naam van het geheim."
+    "declarations.auth.the8020.secrets.secret.edit": "Een geheim aanmaken, vervangen of verwijderen; de waarde is de naam van het geheim.",
+    "admin.secret_is_in_use": "Geheim {name} is nog in gebruik en kan niet worden verwijderd. Haal het eerst weg van de vermelde plaatsen.",
+    "admin.secret_usage_could_not_be_checked": "Geheim {name} kan niet worden verwijderd, omdat sommige pakketten niet op gebruik ervan konden worden gecontroleerd. Probeer het later opnieuw."
   }
 }

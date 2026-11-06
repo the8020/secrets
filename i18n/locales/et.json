@@ -13,6 +13,8 @@
     "programs.list.description": "Loetle nimega saladused",
     "declarations.auth.the8020.secrets.secret.view": "Vaadata saladuse nime ja uuendamisaega, ka valikuloendites; väärtus on saladuse nimi.",
     "declarations.auth.the8020.secrets.secret.read": "Lugeda saladuse dekrüptitud väärtust; väärtus on saladuse nimi.",
-    "declarations.auth.the8020.secrets.secret.edit": "Luua, asendada või kustutada saladus; väärtus on saladuse nimi."
+    "declarations.auth.the8020.secrets.secret.edit": "Luua, asendada või kustutada saladus; väärtus on saladuse nimi.",
+    "admin.secret_is_in_use": "Saladus {name} on endiselt kasutusel ja seda ei saa kustutada. Eemalda see esmalt loetletud kohtadest.",
+    "admin.secret_usage_could_not_be_checked": "Saladust {name} ei saa kustutada, sest mõne paketi puhul ei õnnestunud selle kasutust kontrollida. Proovi hiljem uuesti."
   }
 }

@@ -13,6 +13,8 @@
     "programs.list.description": "Llistar els secrets amb nom",
     "declarations.auth.the8020.secrets.secret.view": "Veure el nom i la data d’actualització d’un secret, també als selectors; el valor és el nom del secret.",
     "declarations.auth.the8020.secrets.secret.read": "Llegir el valor desxifrat d’un secret; el valor és el nom del secret.",
-    "declarations.auth.the8020.secrets.secret.edit": "Crear, substituir o suprimir un secret; el valor és el nom del secret."
+    "declarations.auth.the8020.secrets.secret.edit": "Crear, substituir o suprimir un secret; el valor és el nom del secret.",
+    "admin.secret_is_in_use": "El secret {name} encara s’utilitza i no es pot eliminar. Primer treu-lo dels llocs indicats.",
+    "admin.secret_usage_could_not_be_checked": "El secret {name} no es pot eliminar perquè no s’ha pogut comprovar si alguns paquets l’utilitzen. Torna-ho a provar més tard."
   }
 }

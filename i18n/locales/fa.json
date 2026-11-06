@@ -13,6 +13,8 @@
     "programs.list.description": "نمایش فهرست رازهای نام‌دار",
     "declarations.auth.the8020.secrets.secret.view": "مشاهدهٔ نام و زمان به‌روزرسانی راز، از جمله در فهرست‌های انتخاب؛ مقدار، نام راز است.",
     "declarations.auth.the8020.secrets.secret.read": "خواندن مقدار رمزگشایی‌شدهٔ راز؛ مقدار، نام راز است.",
-    "declarations.auth.the8020.secrets.secret.edit": "ایجاد، جایگزینی یا حذف راز؛ مقدار، نام راز است."
+    "declarations.auth.the8020.secrets.secret.edit": "ایجاد، جایگزینی یا حذف راز؛ مقدار، نام راز است.",
+    "admin.secret_is_in_use": "راز {name} هنوز در حال استفاده است و نمی‌توان آن را حذف کرد. ابتدا آن را از مکان‌های فهرست‌شده حذف کنید.",
+    "admin.secret_usage_could_not_be_checked": "راز {name} را نمی‌توان حذف کرد، زیرا استفاده از آن در برخی بسته‌ها بررسی نشد. بعداً دوباره تلاش کنید."
   }
 }

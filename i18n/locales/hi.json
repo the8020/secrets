@@ -13,6 +13,8 @@
     "programs.list.description": "नाम वाले सीक्रेट की सूची दिखाएँ",
     "declarations.auth.the8020.secrets.secret.view": "चयन सूचियों सहित सीक्रेट का नाम और अपडेट का समय देखें; मान सीक्रेट का नाम है।",
     "declarations.auth.the8020.secrets.secret.read": "सीक्रेट का डिक्रिप्ट किया गया मान पढ़ें; मान सीक्रेट का नाम है।",
-    "declarations.auth.the8020.secrets.secret.edit": "सीक्रेट बनाएँ, बदलें या हटाएँ; मान सीक्रेट का नाम है।"
+    "declarations.auth.the8020.secrets.secret.edit": "सीक्रेट बनाएँ, बदलें या हटाएँ; मान सीक्रेट का नाम है।",
+    "admin.secret_is_in_use": "सीक्रेट {name} अभी उपयोग में है और हटाया नहीं जा सकता। पहले इसे सूचीबद्ध स्थानों से हटाएँ।",
+    "admin.secret_usage_could_not_be_checked": "सीक्रेट {name} को हटाया नहीं जा सकता, क्योंकि कुछ पैकेजों में इसके उपयोग की जाँच नहीं हो सकी। बाद में फिर से कोशिश करें।"
   }
 }

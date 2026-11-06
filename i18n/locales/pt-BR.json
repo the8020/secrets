@@ -13,6 +13,8 @@
     "programs.list.description": "Listar segredos nomeados",
     "declarations.auth.the8020.secrets.secret.view": "Ver o nome e a data de atualização de um segredo, inclusive nos seletores; o valor é o nome do segredo.",
     "declarations.auth.the8020.secrets.secret.read": "Ler o valor descriptografado de um segredo; o valor é o nome do segredo.",
-    "declarations.auth.the8020.secrets.secret.edit": "Criar, substituir ou excluir um segredo; o valor é o nome do segredo."
+    "declarations.auth.the8020.secrets.secret.edit": "Criar, substituir ou excluir um segredo; o valor é o nome do segredo.",
+    "admin.secret_is_in_use": "O segredo {name} ainda está em uso e não pode ser excluído. Remova-o primeiro dos locais listados.",
+    "admin.secret_usage_could_not_be_checked": "O segredo {name} não pode ser excluído porque não foi possível verificar seu uso em alguns pacotes. Tente novamente mais tarde."
   }
 }

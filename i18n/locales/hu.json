@@ -13,6 +13,8 @@
     "programs.list.description": "Elnevezett titkok listázása",
     "declarations.auth.the8020.secrets.secret.view": "A titok nevének és frissítési idejének megtekintése, a választólistákon is; az érték a titok neve.",
     "declarations.auth.the8020.secrets.secret.read": "A titok visszafejtett értékének olvasása; az érték a titok neve.",
-    "declarations.auth.the8020.secrets.secret.edit": "Titok létrehozása, cseréje vagy törlése; az érték a titok neve."
+    "declarations.auth.the8020.secrets.secret.edit": "Titok létrehozása, cseréje vagy törlése; az érték a titok neve.",
+    "admin.secret_is_in_use": "A(z) {name} titok még használatban van, ezért nem törölhető. Előbb távolítsa el a felsorolt helyekről.",
+    "admin.secret_usage_could_not_be_checked": "A(z) {name} titok nem törölhető, mert néhány csomagnál nem sikerült ellenőrizni a használatát. Próbálja újra később."
   }
 }

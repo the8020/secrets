@@ -13,6 +13,8 @@
     "programs.list.description": "Senaraikan rahsia bernama",
     "declarations.auth.the8020.secrets.secret.view": "Lihat nama dan masa kemas kini rahsia, termasuk dalam senarai pilihan; nilainya ialah nama rahsia.",
     "declarations.auth.the8020.secrets.secret.read": "Baca nilai rahsia yang dinyahsulit; nilainya ialah nama rahsia.",
-    "declarations.auth.the8020.secrets.secret.edit": "Cipta, ganti atau padam rahsia; nilainya ialah nama rahsia."
+    "declarations.auth.the8020.secrets.secret.edit": "Cipta, ganti atau padam rahsia; nilainya ialah nama rahsia.",
+    "admin.secret_is_in_use": "Rahsia {name} masih digunakan dan tidak boleh dipadam. Alih keluar dahulu daripada tempat yang disenaraikan.",
+    "admin.secret_usage_could_not_be_checked": "Rahsia {name} tidak boleh dipadam kerana penggunaannya dalam sesetengah pakej tidak dapat disemak. Cuba lagi kemudian."
   }
 }

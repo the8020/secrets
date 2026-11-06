@@ -13,6 +13,8 @@
     "programs.list.description": "Tampilkan daftar rahasia bernama",
     "declarations.auth.the8020.secrets.secret.view": "Lihat nama dan waktu pembaruan rahasia, termasuk dalam daftar pilihan; nilainya adalah nama rahasia.",
     "declarations.auth.the8020.secrets.secret.read": "Baca nilai rahasia yang telah didekripsi; nilainya adalah nama rahasia.",
-    "declarations.auth.the8020.secrets.secret.edit": "Buat, ganti, atau hapus rahasia; nilainya adalah nama rahasia."
+    "declarations.auth.the8020.secrets.secret.edit": "Buat, ganti, atau hapus rahasia; nilainya adalah nama rahasia.",
+    "admin.secret_is_in_use": "Rahasia {name} masih digunakan dan tidak dapat dihapus. Lepaskan dulu dari tempat yang tercantum.",
+    "admin.secret_usage_could_not_be_checked": "Rahasia {name} tidak dapat dihapus karena penggunaannya di beberapa paket tidak dapat diperiksa. Coba lagi nanti."
   }
 }

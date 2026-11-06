@@ -13,6 +13,8 @@
     "programs.list.description": "List named secrets",
     "declarations.auth.the8020.secrets.secret.view": "See a secret's name and update time, including in secret choices; value is the secret name.",
     "declarations.auth.the8020.secrets.secret.read": "Read a secret's decrypted value; value is the secret name.",
-    "declarations.auth.the8020.secrets.secret.edit": "Create, replace or delete a secret; value is the secret name."
+    "declarations.auth.the8020.secrets.secret.edit": "Create, replace or delete a secret; value is the secret name.",
+    "admin.secret_is_in_use": "Secret {name} is still in use and cannot be deleted. Remove it from the places listed first.",
+    "admin.secret_usage_could_not_be_checked": "Secret {name} cannot be deleted because some packages could not be checked for its use. Try again later."
   }
 }

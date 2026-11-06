@@ -13,6 +13,8 @@
     "programs.list.description": "Uzskaitīt nosauktos noslēpumus",
     "declarations.auth.the8020.secrets.secret.view": "Skatīt noslēpuma nosaukumu un atjaunināšanas laiku, arī atlases sarakstos; vērtība ir noslēpuma nosaukums.",
     "declarations.auth.the8020.secrets.secret.read": "Lasīt noslēpuma atšifrēto vērtību; vērtība ir noslēpuma nosaukums.",
-    "declarations.auth.the8020.secrets.secret.edit": "Izveidot, aizstāt vai dzēst noslēpumu; vērtība ir noslēpuma nosaukums."
+    "declarations.auth.the8020.secrets.secret.edit": "Izveidot, aizstāt vai dzēst noslēpumu; vērtība ir noslēpuma nosaukums.",
+    "admin.secret_is_in_use": "Noslēpums {name} joprojām tiek izmantots, un to nevar dzēst. Vispirms noņemiet to no norādītajām vietām.",
+    "admin.secret_usage_could_not_be_checked": "Noslēpumu {name} nevar dzēst, jo dažām pakotnēm neizdevās pārbaudīt tā izmantošanu. Mēģiniet vēlreiz vēlāk."
   }
 }

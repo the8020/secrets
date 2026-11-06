@@ -13,6 +13,8 @@
     "programs.list.description": "عرض الأسرار المسماة",
     "declarations.auth.the8020.secrets.secret.view": "عرض اسم السر ووقت تحديثه، بما في ذلك قوائم الاختيار؛ القيمة هي اسم السر.",
     "declarations.auth.the8020.secrets.secret.read": "قراءة قيمة السر بعد فك تشفيرها؛ القيمة هي اسم السر.",
-    "declarations.auth.the8020.secrets.secret.edit": "إنشاء سر أو استبداله أو حذفه؛ القيمة هي اسم السر."
+    "declarations.auth.the8020.secrets.secret.edit": "إنشاء سر أو استبداله أو حذفه؛ القيمة هي اسم السر.",
+    "admin.secret_is_in_use": "السر {name} لا يزال قيد الاستخدام ولا يمكن حذفه. أزله أولًا من الأماكن المدرجة.",
+    "admin.secret_usage_could_not_be_checked": "لا يمكن حذف السر {name} لأنه تعذّر التحقق من استخدامه في بعض الحزم. حاول مرة أخرى لاحقًا."
   }
 }

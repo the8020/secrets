@@ -143,6 +143,18 @@ below.
   filters names in SQL with auth's `sqlPredicate`. `mod.ts` remains the trusted
   consumer API for packages that authorize their own operations; the kernel's
   Git credential lookup runs `secrets/get` as `system`.
+- Secret usage: a package that stores secret names provides a non-interactive
+  `programs/secret-usages` program. `src/usages.ts` finds these programs in all
+  installed packages and calls each with the requested names. It returns
+  `[{ secret, title, detail?, open?: { program, arguments? } }]` for every
+  record that refers to one of them, regardless of the caller's permissions;
+  `open` names a UUI program that shows the referring record. Results are
+  validated and bounded to 1000 entries per package.
+- `secrets.usages(name)` requires view. `secrets.delete(name)` requires edit and
+  refuses with `SecretInUseError` while any package reports a usage or a
+  provider fails, so an unchecked package never allows deletion. The trusted
+  `deleteSecret` in `mod.ts` stays unchecked for owners removing their own
+  secrets, such as HTTPS keys in a transaction.
 - Consumers import `mod.ts`; the kernel SDK has no named-secret storage API.
   Explicit get decrypts values for trusted callers. Lists and writes return
   names/update times only. Native Git resolves credentials through the ordinary
