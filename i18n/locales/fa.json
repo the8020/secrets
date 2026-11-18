@@ -7,7 +7,7 @@
     "secret.paste_the_credential_to_save_saving_an": "اطلاعات احراز هویت موردنظر برای ذخیره را جای‌گذاری کنید. ذخیرهٔ راز موجود، مقدار فعلی آن را **جایگزین** می‌کند.",
     "secret.last_changed": "آخرین تغییر",
     "secret.when_this_credential_was_most_recently_replaced": "زمان آخرین جایگزینی این اطلاعات احراز هویت.",
-    "package.description": "رازهای اشتراکی نام‌دار \u206680|20\u2069",
+    "package.description": "رازهای اشتراکی نام‌دار ⁦80|20⁩",
     "programs.get.description": "دریافت راز با نام آن",
     "programs.set.description": "تنظیم راز نام‌دار",
     "programs.list.description": "نمایش فهرست رازهای نام‌دار",
@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "خواندن مقدار رمزگشایی‌شدهٔ راز؛ مقدار، نام راز است.",
     "declarations.auth.the8020.secrets.secret.edit": "ایجاد، جایگزینی یا حذف راز؛ مقدار، نام راز است.",
     "admin.secret_is_in_use": "راز {name} هنوز در حال استفاده است و نمی‌توان آن را حذف کرد. ابتدا آن را از مکان‌های فهرست‌شده حذف کنید.",
-    "admin.secret_usage_could_not_be_checked": "راز {name} را نمی‌توان حذف کرد، زیرا استفاده از آن در برخی بسته‌ها بررسی نشد. بعداً دوباره تلاش کنید."
+    "admin.secret_usage_could_not_be_checked": "راز {name} را نمی‌توان حذف کرد، زیرا استفاده از آن در برخی بسته‌ها بررسی نشد. بعداً دوباره تلاش کنید.",
+    "errors.secret_listing_exceeds_10000_entries": "فهرست مخفی بیش از 10000 مطلب",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "ارزش مخفی باید شامل 1–65536 UTF-8 بایت باشد"
   }
 }

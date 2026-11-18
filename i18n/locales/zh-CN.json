@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "读取机密解密后的值；值为机密名称。",
     "declarations.auth.the8020.secrets.secret.edit": "创建、替换或删除机密；值为机密名称。",
     "admin.secret_is_in_use": "机密 {name} 仍在使用中，无法删除。请先从列出的位置中移除它。",
-    "admin.secret_usage_could_not_be_checked": "无法删除机密 {name}，因为无法检查部分软件包是否在使用它。请稍后重试。"
+    "admin.secret_usage_could_not_be_checked": "无法删除机密 {name}，因为无法检查部分软件包是否在使用它。请稍后重试。",
+    "errors.secret_listing_exceeds_10000_entries": "秘密列表超过10000条",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "秘密值必须包含1–65536 UTF-8字节"
   }
 }

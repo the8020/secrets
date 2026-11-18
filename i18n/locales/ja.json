@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "シークレットの復号済みの値を読み取ります。値にはシークレット名を指定します。",
     "declarations.auth.the8020.secrets.secret.edit": "シークレットを作成、置換、削除します。値にはシークレット名を指定します。",
     "admin.secret_is_in_use": "シークレット {name} はまだ使用中のため削除できません。先に一覧の場所から外してください。",
-    "admin.secret_usage_could_not_be_checked": "一部のパッケージで使用状況を確認できなかったため、シークレット {name} を削除できません。しばらくしてから再試行してください。"
+    "admin.secret_usage_could_not_be_checked": "一部のパッケージで使用状況を確認できなかったため、シークレット {name} を削除できません。しばらくしてから再試行してください。",
+    "errors.secret_listing_exceeds_10000_entries": "秘密のリストは10000件を超える",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "シークレットの値はUTF-8で1～65536バイトにしてください"
   }
 }

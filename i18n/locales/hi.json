@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "सीक्रेट का डिक्रिप्ट किया गया मान पढ़ें; मान सीक्रेट का नाम है।",
     "declarations.auth.the8020.secrets.secret.edit": "सीक्रेट बनाएँ, बदलें या हटाएँ; मान सीक्रेट का नाम है।",
     "admin.secret_is_in_use": "सीक्रेट {name} अभी उपयोग में है और हटाया नहीं जा सकता। पहले इसे सूचीबद्ध स्थानों से हटाएँ।",
-    "admin.secret_usage_could_not_be_checked": "सीक्रेट {name} को हटाया नहीं जा सकता, क्योंकि कुछ पैकेजों में इसके उपयोग की जाँच नहीं हो सकी। बाद में फिर से कोशिश करें।"
+    "admin.secret_usage_could_not_be_checked": "सीक्रेट {name} को हटाया नहीं जा सकता, क्योंकि कुछ पैकेजों में इसके उपयोग की जाँच नहीं हो सकी। बाद में फिर से कोशिश करें।",
+    "errors.secret_listing_exceeds_10000_entries": "गुप्त सूची 10000 प्रविष्टियों से अधिक है",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "गुप्त मूल्य में 1–65536 UTF-8 बाइट होना चाहिए"
   }
 }

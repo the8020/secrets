@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "Llegir el valor desxifrat d’un secret; el valor és el nom del secret.",
     "declarations.auth.the8020.secrets.secret.edit": "Crear, substituir o suprimir un secret; el valor és el nom del secret.",
     "admin.secret_is_in_use": "El secret {name} encara s’utilitza i no es pot eliminar. Primer treu-lo dels llocs indicats.",
-    "admin.secret_usage_could_not_be_checked": "El secret {name} no es pot eliminar perquè no s’ha pogut comprovar si alguns paquets l’utilitzen. Torna-ho a provar més tard."
+    "admin.secret_usage_could_not_be_checked": "El secret {name} no es pot eliminar perquè no s’ha pogut comprovar si alguns paquets l’utilitzen. Torna-ho a provar més tard.",
+    "errors.secret_listing_exceeds_10000_entries": "Lista secreta excedeix les 10000 entrades",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "El valor secret ha de contenir 1–65536 UTF-8 bytes"
   }
 }

@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "Läsa en hemlighets dekrypterade värde; värdet är hemlighetens namn.",
     "declarations.auth.the8020.secrets.secret.edit": "Skapa, ersätta eller ta bort en hemlighet; värdet är hemlighetens namn.",
     "admin.secret_is_in_use": "Hemligheten {name} används fortfarande och kan inte tas bort. Ta först bort den från de platser som visas.",
-    "admin.secret_usage_could_not_be_checked": "Hemligheten {name} kan inte tas bort eftersom det inte gick att kontrollera om vissa paket använder den. Försök igen senare."
+    "admin.secret_usage_could_not_be_checked": "Hemligheten {name} kan inte tas bort eftersom det inte gick att kontrollera om vissa paket använder den. Försök igen senare.",
+    "errors.secret_listing_exceeds_10000_entries": "Hemlig förteckning överstiger 10000 poster",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "Hemligt värde ska innehålla 1–65536 UTF-8 bytes"
   }
 }

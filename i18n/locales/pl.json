@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "Odczytywać odszyfrowaną wartość sekretu; wartością jest nazwa sekretu.",
     "declarations.auth.the8020.secrets.secret.edit": "Tworzyć, zastępować lub usuwać sekret; wartością jest nazwa sekretu.",
     "admin.secret_is_in_use": "Sekret {name} jest nadal używany i nie można go usunąć. Najpierw usuń go z wymienionych miejsc.",
-    "admin.secret_usage_could_not_be_checked": "Nie można usunąć sekretu {name}, ponieważ nie udało się sprawdzić jego użycia w niektórych pakietach. Spróbuj ponownie później."
+    "admin.secret_usage_could_not_be_checked": "Nie można usunąć sekretu {name}, ponieważ nie udało się sprawdzić jego użycia w niektórych pakietach. Spróbuj ponownie później.",
+    "errors.secret_listing_exceeds_10000_entries": "Tajemnicze wykazy przekraczają 10000 pozycji",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "Tajna wartość musi zawierać 1–65536 UTF-8 bajty"
   }
 }

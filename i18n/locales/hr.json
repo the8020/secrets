@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "Čitati dešifriranu vrijednost tajne; vrijednost je naziv tajne.",
     "declarations.auth.the8020.secrets.secret.edit": "Stvoriti, zamijeniti ili izbrisati tajnu; vrijednost je naziv tajne.",
     "admin.secret_is_in_use": "Tajna {name} još se koristi i ne može se izbrisati. Najprije je uklonite s navedenih mjesta.",
-    "admin.secret_usage_could_not_be_checked": "Tajna {name} ne može se izbrisati jer za neke pakete nije bilo moguće provjeriti koriste li je. Pokušajte ponovno kasnije."
+    "admin.secret_usage_could_not_be_checked": "Tajna {name} ne može se izbrisati jer za neke pakete nije bilo moguće provjeriti koriste li je. Pokušajte ponovno kasnije.",
+    "errors.secret_listing_exceeds_10000_entries": "Prijavljeno je da je tajni popis veći od 10000 članaka.",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "Tajna vrijednost mora sadržavati 1–65536 UTF-8 bajtove"
   }
 }

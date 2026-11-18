@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "Ler o valor desencriptado de um segredo; o valor é o nome do segredo.",
     "declarations.auth.the8020.secrets.secret.edit": "Criar, substituir ou eliminar um segredo; o valor é o nome do segredo.",
     "admin.secret_is_in_use": "O segredo {name} ainda está a ser utilizado e não pode ser eliminado. Remova-o primeiro dos locais indicados.",
-    "admin.secret_usage_could_not_be_checked": "O segredo {name} não pode ser eliminado porque não foi possível verificar a sua utilização em alguns pacotes. Tente novamente mais tarde."
+    "admin.secret_usage_could_not_be_checked": "O segredo {name} não pode ser eliminado porque não foi possível verificar a sua utilização em alguns pacotes. Tente novamente mais tarde.",
+    "errors.secret_listing_exceeds_10000_entries": "Listagem secreta excede 10000 entradas",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "O valor secreto deve conter 1–65536 UTF-8 bytes"
   }
 }

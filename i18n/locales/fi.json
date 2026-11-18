@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "Lue salaisuuden salauspurettu arvo; arvo on salaisuuden nimi.",
     "declarations.auth.the8020.secrets.secret.edit": "Luo, korvaa tai poista salaisuus; arvo on salaisuuden nimi.",
     "admin.secret_is_in_use": "Salaisuus {name} on yhä käytössä, eikä sitä voi poistaa. Poista se ensin luetelluista kohteista.",
-    "admin.secret_usage_could_not_be_checked": "Salaisuutta {name} ei voi poistaa, koska sen käyttöä ei voitu tarkistaa joistakin paketeista. Yritä myöhemmin uudelleen."
+    "admin.secret_usage_could_not_be_checked": "Salaisuutta {name} ei voi poistaa, koska sen käyttöä ei voitu tarkistaa joistakin paketeista. Yritä myöhemmin uudelleen.",
+    "errors.secret_listing_exceeds_10000_entries": "Salainen luettelo ylittää 10000 merkintää",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "Salaisen arvon on oltava 1–65536 UTF-8 bytejä"
   }
 }

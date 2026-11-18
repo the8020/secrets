@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "Lasīt noslēpuma atšifrēto vērtību; vērtība ir noslēpuma nosaukums.",
     "declarations.auth.the8020.secrets.secret.edit": "Izveidot, aizstāt vai dzēst noslēpumu; vērtība ir noslēpuma nosaukums.",
     "admin.secret_is_in_use": "Noslēpums {name} joprojām tiek izmantots, un to nevar dzēst. Vispirms noņemiet to no norādītajām vietām.",
-    "admin.secret_usage_could_not_be_checked": "Noslēpumu {name} nevar dzēst, jo dažām pakotnēm neizdevās pārbaudīt tā izmantošanu. Mēģiniet vēlreiz vēlāk."
+    "admin.secret_usage_could_not_be_checked": "Noslēpumu {name} nevar dzēst, jo dažām pakotnēm neizdevās pārbaudīt tā izmantošanu. Mēģiniet vēlreiz vēlāk.",
+    "errors.secret_listing_exceeds_10000_entries": "Tautas saraksts pārsniedz 10000 ieraksti",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "Slēpta vērtība satur 1–65536 UTF-8 baitu"
   }
 }

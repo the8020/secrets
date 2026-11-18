@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "Citirea valorii decriptate a unui secret; valoarea este numele secretului.",
     "declarations.auth.the8020.secrets.secret.edit": "Crearea, înlocuirea sau ștergerea unui secret; valoarea este numele secretului.",
     "admin.secret_is_in_use": "Secretul {name} este încă folosit și nu poate fi șters. Eliminați-l mai întâi din locurile enumerate.",
-    "admin.secret_usage_could_not_be_checked": "Secretul {name} nu poate fi șters deoarece unele pachete nu au putut fi verificate pentru utilizarea lui. Încercați din nou mai târziu."
+    "admin.secret_usage_could_not_be_checked": "Secretul {name} nu poate fi șters deoarece unele pachete nu au putut fi verificate pentru utilizarea lui. Încercați din nou mai târziu.",
+    "errors.secret_listing_exceeds_10000_entries": "Lista secretă depășește 10000 de inscripții",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "Valoarea secretă trebuie să conțină 1–65536 UTF-8 byte"
   }
 }

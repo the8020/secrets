@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "Čítať dešifrovanú hodnotu tajného údaja; hodnotou je názov tajného údaja.",
     "declarations.auth.the8020.secrets.secret.edit": "Vytvoriť, nahradiť alebo odstrániť tajný údaj; hodnotou je názov tajného údaja.",
     "admin.secret_is_in_use": "Tajný údaj {name} sa stále používa a nemožno ho odstrániť. Najprv ho odoberte z uvedených miest.",
-    "admin.secret_usage_could_not_be_checked": "Tajný údaj {name} nemožno odstrániť, pretože pri niektorých balíčkoch sa nepodarilo overiť jeho použitie. Skúste to znova neskôr."
+    "admin.secret_usage_could_not_be_checked": "Tajný údaj {name} nemožno odstrániť, pretože pri niektorých balíčkoch sa nepodarilo overiť jeho použitie. Skúste to znova neskôr.",
+    "errors.secret_listing_exceeds_10000_entries": "Tajný zoznam presahuje 10000 záznamov",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "Tajná hodnota musí obsahovať 1–65536 UTF-8 byty"
   }
 }

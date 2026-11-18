@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "Baca nilai rahsia yang dinyahsulit; nilainya ialah nama rahsia.",
     "declarations.auth.the8020.secrets.secret.edit": "Cipta, ganti atau padam rahsia; nilainya ialah nama rahsia.",
     "admin.secret_is_in_use": "Rahsia {name} masih digunakan dan tidak boleh dipadam. Alih keluar dahulu daripada tempat yang disenaraikan.",
-    "admin.secret_usage_could_not_be_checked": "Rahsia {name} tidak boleh dipadam kerana penggunaannya dalam sesetengah pakej tidak dapat disemak. Cuba lagi kemudian."
+    "admin.secret_usage_could_not_be_checked": "Rahsia {name} tidak boleh dipadam kerana penggunaannya dalam sesetengah pakej tidak dapat disemak. Cuba lagi kemudian.",
+    "errors.secret_listing_exceeds_10000_entries": "Senarai rahsia melebihi 10000 entri",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "Nilai rahsia mesti mengandungi 1–65536 UTF-8 byte"
   }
 }
