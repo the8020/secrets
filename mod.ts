@@ -1,3 +1,5 @@
+import { localizedText as resolveMessage } from "/p/the8020/i18n/mod.ts";
+import { msg as messageSymbol } from "/p/the8020/secrets/i18n/messages.ts";
 import { kernel } from "@the8020/kernel";
 import { type Database, db } from "/p/the8020/db/mod.ts";
 import type { Kysely } from "/p/the8020/db/kysely.ts";
@@ -11,7 +13,11 @@ export async function listSecrets() {
   const rows = await Secrets.select([Secrets.name, Secrets.updatedAt])
     .orderBy(Secrets.name).limit(10001).execute();
   if (rows.length > 10000) {
-    throw new Error("Secret listing exceeds 10000 entries");
+    throw new Error(
+      await resolveMessage(
+        messageSymbol("errors.secret_listing_exceeds_10000_entries"),
+      ),
+    );
   }
   return rows.map((row) => ({
     name: row.name,
@@ -39,7 +45,11 @@ export async function setSecret(
     !value.isWellFormed() || value.length === 0 ||
     encoder.encode(value).length > 64 * 1024
   ) {
-    throw new TypeError("Secret value must contain 1–65536 UTF-8 bytes");
+    throw new TypeError(
+      await resolveMessage(
+        messageSymbol("errors.secret_value_must_contain_1_65536_utf_8_bytes"),
+      ),
+    );
   }
   const encrypted = await kernel.crypto.encrypt(
     purpose,
