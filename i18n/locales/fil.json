@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "Basahin ang na-decrypt na halaga ng sikreto; ang halaga ay pangalan ng sikreto.",
     "declarations.auth.the8020.secrets.secret.edit": "Gumawa, magpalit, o magtanggal ng sikreto; ang halaga ay pangalan ng sikreto.",
     "admin.secret_is_in_use": "Ginagamit pa ang sikretong {name} at hindi ito mabubura. Alisin muna ito sa mga nakalistang lugar.",
-    "admin.secret_usage_could_not_be_checked": "Hindi mabubura ang sikretong {name} dahil hindi nasuri ang ilang package kung ginagamit ito. Subukang muli mamaya."
+    "admin.secret_usage_could_not_be_checked": "Hindi mabubura ang sikretong {name} dahil hindi nasuri ang ilang package kung ginagamit ito. Subukang muli mamaya.",
+    "errors.secret_listing_exceeds_10000_entries": "Ang lihim na listahan ay higit sa 10000 entry",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "Ang lihim na halaga ay dapat maglalaman ng 1–65536 UTF-8 bytes"
   }
 }

@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "อ่านค่าที่ถอดรหัสแล้วของข้อมูลลับ โดยค่าคือชื่อข้อมูลลับ",
     "declarations.auth.the8020.secrets.secret.edit": "สร้าง แทนที่ หรือลบข้อมูลลับ โดยค่าคือชื่อข้อมูลลับ",
     "admin.secret_is_in_use": "ข้อมูลลับ {name} ยังถูกใช้งานอยู่และลบไม่ได้ ให้นำออกจากตำแหน่งที่แสดงไว้ก่อน",
-    "admin.secret_usage_could_not_be_checked": "ลบข้อมูลลับ {name} ไม่ได้ เนื่องจากตรวจสอบการใช้งานในบางแพ็กเกจไม่ได้ โปรดลองอีกครั้งภายหลัง"
+    "admin.secret_usage_could_not_be_checked": "ลบข้อมูลลับ {name} ไม่ได้ เนื่องจากตรวจสอบการใช้งานในบางแพ็กเกจไม่ได้ โปรดลองอีกครั้งภายหลัง",
+    "errors.secret_listing_exceeds_10000_entries": "รายการลับเกิน 10000 รายการ",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "ราคาลับต้องมี 1–65536 UTF-8 บาท"
   }
 }

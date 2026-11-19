@@ -7,7 +7,7 @@
     "secret.paste_the_credential_to_save_saving_an": "الصق بيانات الاعتماد المراد حفظها. حفظ سر موجود **يستبدل** قيمته الحالية.",
     "secret.last_changed": "آخر تعديل",
     "secret.when_this_credential_was_most_recently_replaced": "وقت آخر استبدال لبيانات الاعتماد هذه.",
-    "package.description": "الأسرار المشتركة المسماة في \u206680|20\u2069",
+    "package.description": "الأسرار المشتركة المسماة في ⁦80|20⁩",
     "programs.get.description": "الحصول على سر باسمه",
     "programs.set.description": "تعيين سر مسمى",
     "programs.list.description": "عرض الأسرار المسماة",
@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "قراءة قيمة السر بعد فك تشفيرها؛ القيمة هي اسم السر.",
     "declarations.auth.the8020.secrets.secret.edit": "إنشاء سر أو استبداله أو حذفه؛ القيمة هي اسم السر.",
     "admin.secret_is_in_use": "السر {name} لا يزال قيد الاستخدام ولا يمكن حذفه. أزله أولًا من الأماكن المدرجة.",
-    "admin.secret_usage_could_not_be_checked": "لا يمكن حذف السر {name} لأنه تعذّر التحقق من استخدامه في بعض الحزم. حاول مرة أخرى لاحقًا."
+    "admin.secret_usage_could_not_be_checked": "لا يمكن حذف السر {name} لأنه تعذّر التحقق من استخدامه في بعض الحزم. حاول مرة أخرى لاحقًا.",
+    "errors.secret_listing_exceeds_10000_entries": "القائمة السرية تتجاوز 10000 إدخال",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "يجب أن تحتوي القيمة السرية على 1–65536 UTF-8 بايت"
   }
 }

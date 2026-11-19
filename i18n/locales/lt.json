@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "Skaityti iššifruotą paslapties reikšmę; reikšmė yra paslapties pavadinimas.",
     "declarations.auth.the8020.secrets.secret.edit": "Kurti, pakeisti arba ištrinti paslaptį; reikšmė yra paslapties pavadinimas.",
     "admin.secret_is_in_use": "Paslaptis {name} vis dar naudojama, todėl jos negalima ištrinti. Pirmiausia pašalinkite ją iš nurodytų vietų.",
-    "admin.secret_usage_could_not_be_checked": "Paslapties {name} negalima ištrinti, nes kai kurių paketų nepavyko patikrinti, ar jie ją naudoja. Bandykite vėliau."
+    "admin.secret_usage_could_not_be_checked": "Paslapties {name} negalima ištrinti, nes kai kurių paketų nepavyko patikrinti, ar jie ją naudoja. Bandykite vėliau.",
+    "errors.secret_listing_exceeds_10000_entries": "Paslaptų sąrašų skaičius viršija 10000 įrašų",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "Paslapta vertė turi būti 1–65536 UTF-8 baitai"
   }
 }

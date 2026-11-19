@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "Lesa afkóðað gildi leyndarmáls; gildið er nafn leyndarmálsins.",
     "declarations.auth.the8020.secrets.secret.edit": "Búa til, skipta út eða eyða leyndarmáli; gildið er nafn leyndarmálsins.",
     "admin.secret_is_in_use": "Leyndarmálið {name} er enn í notkun og ekki er hægt að eyða því. Fjarlægðu það fyrst af stöðunum sem eru taldir upp.",
-    "admin.secret_usage_could_not_be_checked": "Ekki er hægt að eyða leyndarmálinu {name} því ekki tókst að athuga notkun þess í sumum pökkum. Reyndu aftur síðar."
+    "admin.secret_usage_could_not_be_checked": "Ekki er hægt að eyða leyndarmálinu {name} því ekki tókst að athuga notkun þess í sumum pökkum. Reyndu aftur síðar.",
+    "errors.secret_listing_exceeds_10000_entries": "Leyndarlýsingar fara yfir 10000 færslur",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "Leyndargildi skal innihalda 1–65536 UTF-8 bytes"
   }
 }

@@ -15,6 +15,8 @@
     "declarations.auth.the8020.secrets.secret.read": "Læs en hemmeligheds dekrypterede værdi; værdien er hemmelighedens navn.",
     "declarations.auth.the8020.secrets.secret.edit": "Opret, erstat eller slet en hemmelighed; værdien er hemmelighedens navn.",
     "admin.secret_is_in_use": "Hemmeligheden {name} er stadig i brug og kan ikke slettes. Fjern den først fra de viste steder.",
-    "admin.secret_usage_could_not_be_checked": "Hemmeligheden {name} kan ikke slettes, fordi nogle pakker ikke kunne kontrolleres for brug af den. Prøv igen senere."
+    "admin.secret_usage_could_not_be_checked": "Hemmeligheden {name} kan ikke slettes, fordi nogle pakker ikke kunne kontrolleres for brug af den. Prøv igen senere.",
+    "errors.secret_listing_exceeds_10000_entries": "Hemmelig optagelse overstiger 10000 poster",
+    "errors.secret_value_must_contain_1_65536_utf_8_bytes": "Hemmelig værdi skal indeholde 1–65536 UTF-8 byte"
   }
 }
